@@ -1,0 +1,473 @@
+{
+  "navbar": {
+    "menu": {
+      "home": "Home",
+      "about": "About Us",
+      "service": "Services",
+      "portfolio": "Success Stories",
+      "contact": "contacts"
+    }
+  },
+  "page_section": [
+    {
+      "hero": {
+        "title": "Custom Web App Development Services",
+        "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!"
+      }
+    },
+    {
+      "about": {
+        "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit.",
+        "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!"
+      }
+    },
+    {
+      "service": [
+        {
+          "title": "Gippity AI powers the entire universe",
+          "des": "With over 100,000 mothly active bot users, Gippity AI is the most popular AI platform for developers.",
+          "containerClassName": "col-span-1 lg:col-span-2 h-full min-h-[400px] lg:min-h-[400px]",
+          "divClassName": "max-w-xl relative",
+          "buttonLabel": "Let's Contect",
+          "image": null,
+          "imageClassName": "",
+          "h2ClassName": "relative text-left text-balance text-2xl lg:text-5xl font-semibold text-black mt-3 md:mb-t",
+          "pClassName": "mt-4 text-left text-base/6 text-customGray1",
+          "spanContent": "OUR SERVICES", 
+          "spanClassName": "text-customYellow",
+          "isService": true
+        },
+        {
+          "title": " No shirt, no shoes, no weapons.",
+          "des": "If someone yells “stop!”, goes limp, or taps out, the fight is over.",
+          "containerClassName": "col-span-1 min-h-[400px] bg-customGray overflow-hidden relative",
+          "divClassName": "max-w-80",
+          "image": "/picture/box/box2.svg",
+          "imageClassName": "w-96 h-auto absolute -right-5 -bottom-52",
+          "h2ClassName": "max-w-80 text-left text-balance text-2xl lg:text-3xl font-semibold tracking-[-0.015em] text-black",
+          "pClassName": "mt-4 max-w-[26rem] text-left text-base/6 text-customGray1",
+          "spanContent": null,
+          "spanClassName": ""
+        },
+        {
+          "title": "Signup for blazing-fast cutting-edge state of the art Gippity AI wrapper today!",
+          "des": "With over 100,000 mothly active bot users, Gippity AI is the most popular AI platform for developers.",
+          "containerClassName": "col-span-1 min-h-[400px] bg-customGray lg:min-h-[600px] xl:min-h-[300px] overflow-hidden relative",
+          "divClassName": "max-w-sm",
+          "image": "/picture/box/box1.svg",
+          "imageClassName": "w-96 h-auto absolute -top-16",
+          "h2ClassName": "max-w-sm md:max-w-lg text-left text-balance text-2xl lg:text-3xl font-semibold tracking-[-0.015em] text-black",
+          "pClassName": "mt-4 max-w-[26rem] text-left text-base/6 text-customGray1",
+          "spanContent": null,
+          "spanClassName": ""
+        },
+        {
+          "title": "Signup for blazing-fast cutting-edge state of the art Gippity AI wrapper today!",
+          "des": "With over 100,000 mothly active bot users, Gippity AI is the most popular AI platform for developers.",
+          "containerClassName": "col-span-1 lg:col-span-2 min-h-[400px] bg-customYellow1 bg-cover bg-no-repeat lg:min-h-[600px] xl:min-h-[300px]",
+          "divClassName": "max-w-sm",
+          "imageClassName": "",
+          "h2ClassName": "max-w-sm md:max-w-lg text-left text-balance text-2xl lg:text-3xl font-semibold tracking-[-0.015em] text-black",
+          "pClassName": "mt-4 max-w-[26rem] text-left text-base/6 text-customGray1",
+          "spanContent": null,
+          "spanClassName": ""
+        }
+      ]
+    },
+    {
+      "testimonial": {
+        "title": "Testimonials",
+        "Jack_des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!",
+        "Cameron_des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!",
+        "Gerard_des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!"
+      }
+    }
+  ],
+  "footer": [
+    {
+      "mainLeft": {
+        "des": "Professional software development services to match your unique business requirements"
+      }
+    },
+    {
+      "service": [
+        {
+          "title": "Services"
+        },
+        {
+          "services": [
+            {
+              "service": "Lorem ipsum dolor sit amet"
+           },
+           {
+              "service": "Lorem ipsum dolor sit amet"
+           },
+           {
+              "service": "Lorem ipsum dolor sit amet"
+           },
+           {
+              "service": "Lorem ipsum dolor sit amet"
+           }
+          ]
+        }
+      ]
+    },
+    {
+      "contact": {
+        "title": "Get in touch",
+        "email": "Neko@gmail.com",
+        "phone": "+66 999 9999",
+        "address": "Chiang Mai, Thailand"
+      }
+    }
+  ],
+  "about_section": [
+    {
+      "hero": {
+        "pre_title": "A Leading Software House",
+        "title": "Development of web apps and mobile apps ",
+        "des": "Professional software development services to match your unique business requirements"
+      }
+    },
+    {
+      "service": [
+        {
+          "title": "What we do",
+          "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit."
+        },
+        {
+          "service_section": [
+            {
+              "we_do": "Lorem ipsum dolor sit amet",
+              "we_pic": "/picture/computer.jpg",
+              "css_class": {
+                "image": "w-full h-full object-cover brightness-75 group-hover:scale-105 duration-300",
+                "overlay": "absolute bottom-0 p-5 w-full duration-300 bg-gradient-to-t from-customBrown/75 to-transparent",
+                "title": "text-customYellow1 text-xl font-semibold"
+              }
+            },
+            {
+              "we_do": "Lorem ipsum dolor sit amet",
+              "we_pic": "/picture/computer.jpg",
+              "css_class": {
+                "image": "w-full h-full object-cover brightness-75 group-hover:scale-105 duration-300",
+                "overlay": "absolute bottom-0 p-5 w-full duration-300 bg-gradient-to-t from-customBrown/75 to-transparent",
+                "title": "text-customYellow1 text-xl font-semibold"
+              }
+            },
+            {
+              "we_do": "Lorem ipsum dolor sit amet",
+              "we_pic": "/picture/computer.jpg",
+              "css_class": {
+                "image": "w-full h-full object-cover brightness-75 group-hover:scale-105 duration-300",
+                "overlay": "absolute bottom-0 p-5 w-full duration-300 bg-gradient-to-t from-customBrown/75 to-transparent",
+                "title": "text-customYellow1 text-xl font-semibold"
+              }
+            },
+            {
+              "we_do": "Lorem ipsum dolor sit amet",
+              "we_pic": "/picture/computer.jpg",
+              "css_class": {
+                "image": "w-full h-full object-cover brightness-75 group-hover:scale-105 duration-300",
+                "overlay": "absolute bottom-0 p-5 w-full duration-300 bg-gradient-to-t from-customBrown/75 to-transparent",
+                "title": "text-customYellow1 text-xl font-semibold"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": {
+        "year": "Years of experience",
+        "customer": "Trusted clients",
+        "project": "Projects in progress"
+      }
+    },
+    {
+      "about_content": [
+        {
+          "title": "Collaborative Editing",
+          "des": "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity."
+        },
+        {
+          "title": "Real time changes",
+          "des": "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity."
+        },
+        {
+          "title": "Version control",
+          "des": "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity."
+        },
+        {
+          "title": "Running out of content",
+          "des": "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity."
+        }
+      ]
+    }
+  ],
+  "portfolio_section": [
+    {
+      "title": "Platforms that we are the Tech partner"
+    },
+    {
+      "hero": {
+        "title": "Success stories",
+        "des": "We seek perfection with every single project. When our clients succeed, we succeed. Here is a collection of stories we are particularly proud of, products of hard work, excellent communication, and a team of driven, talented developers."
+      }
+    },
+    {
+      "portfolio": [
+        {
+          "id": 1,
+          "pic": "/picture/computer.jpg",
+          "logo": "/logo/nego-logo2.jpg",
+          "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
+          "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!",
+          "category": "web_app"
+        },
+        {
+          "id": 2,
+          "pic": "/picture/computer.jpg",
+          "logo": "/logo/nego-logo2.jpg",
+          "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
+          "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!",
+          "category": "web_app"
+        },
+        {
+          "id": 3,
+          "pic": "/picture/computer.jpg",
+          "logo": "/logo/nego-logo2.jpg",
+          "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
+          "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!",
+          "category": "web_app"
+        },
+        {
+          "id": 4,
+          "pic": "/picture/computer.jpg",
+          "logo": "/logo/nego-logo2.jpg",
+          "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
+          "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!",
+          "category": "mobile_app"
+        },
+        {
+          "id": 5,
+          "pic": "/picture/computer.jpg",
+          "logo": "/logo/nego-logo2.jpg",
+          "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
+          "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!",
+          "category": "mobile_app"
+        },
+        {
+          "id": 6,
+          "pic": "/picture/computer.jpg",
+          "logo": "/logo/nego-logo2.jpg",
+          "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
+          "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!",
+          "category": "mobile_app"
+        },
+        {
+          "id": 7,
+          "pic": "/picture/computer.jpg",
+          "logo": "/logo/nego-logo2.jpg",
+          "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
+          "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!",
+          "category": "integration"
+        },
+        {
+          "id": 8,
+          "pic": "/picture/computer.jpg",
+          "logo": "/logo/nego-logo2.jpg",
+          "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
+          "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!",
+          "category": "integration"
+        },
+        {
+          "id": 9,
+          "pic": "/picture/computer.jpg",
+          "logo": "/logo/nego-logo2.jpg",
+          "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
+          "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!",
+          "category": "integration"
+        }
+      ]
+    },
+    {
+      "others": {
+        "live": "Go to website",
+        "readMore": "Read More"
+      }
+    }
+  ],
+  "service_section": [
+    {
+      "hero": {
+        "title": "Software Development and Consult Service",
+        "des": "We seek perfection with every single project. When our clients succeed, we succeed. Here is a collection of stories we are particularly proud of, products of hard work, excellent communication, and a team of driven, talented developers.",
+        "img": "/picture/computer.jpg"
+      }
+    },
+    {
+      "feature": [
+        {
+          "title": "What we do",
+          "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit."
+        },
+        {
+          "feature_section": [
+            {
+              "pic": "/picture/computer.jpg",
+              "des": "Lorem ipsum dolor sit amet"
+            },
+            {
+              "pic": "/picture/computer.jpg",
+              "des": "Lorem ipsum dolor sit amet"
+            },
+            {
+              "pic": "/picture/computer.jpg",
+              "des": "Lorem ipsum dolor sit amet"
+            },
+            {
+              "pic": "/picture/computer.jpg",
+              "des": "Lorem ipsum dolor sit amet"
+            },
+            {
+              "pic": "/picture/computer.jpg",
+              "des": "Lorem ipsum dolor sit amet"
+            },
+            {
+              "pic": "/picture/computer.jpg",
+              "des": "Lorem ipsum dolor sit amet"
+            },
+            {
+              "pic": "/picture/computer.jpg",
+              "des": "Lorem ipsum dolor sit amet"
+            },
+            {
+              "pic": "/picture/computer.jpg",
+              "des": "Lorem ipsum dolor sit amet"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "contact_section": [
+    {
+      "mainLeft": {
+        "title": "Talk with us to explore the new opportunities together",
+        "company": "NEKO SOFTWARE ENGINEERING CO.,LTD.",
+        "address": "Chiang Mai, Thailand"
+      }
+    },
+    {
+      "formRight": {
+        "title": "Contact Us",
+        "name": "Your name",
+        "email": "Your email",
+        "company": "Company",
+        "subject": "Subject",
+        "message": "Message",
+        "submit": "Submit"
+      }
+    }
+  ],
+  "head_meta_tag": [
+    {
+      "page": {
+        "title": "NEGO SOFTWARE ENGINEERING CO.,LTD.",
+        "des_content": "NEGO Software Engineering provides high-quality software development and technology consulting services for your business.",
+        "keyword": [
+          {
+            "keyword_content": "software"
+          },
+          {
+            "keyword_content": "development"
+          },
+          {
+            "keyword_content": "consulting"
+          },
+          {
+            "keyword_content": "technology"
+          }
+        ],
+        "author_content": "NEGO Software Engineering CO.,LTD."
+      },
+      "about": {
+        "title": "About NEGO SOFTWARE ENGINEERING CO.,LTD.",
+        "des_content": "NEGO Software Engineering provides high-quality software development and technology consulting services for your business.",
+        "keyword": [
+          {
+            "keyword_content": "software"
+          },
+          {
+            "keyword_content": "development"
+          },
+          {
+            "keyword_content": "consulting"
+          },
+          {
+            "keyword_content": "technology"
+          }
+        ],
+        "author_content": "NEGO Software Engineering CO.,LTD."
+      },
+      "service": {
+        "title": "Services of NEGO SOFTWARE ENGINEERING CO.,LTD.",
+        "des_content": "NEGO Software Engineering provides high-quality software development and technology solutions tailored to meet your business needs.",
+        "keyword": [
+          {
+            "keyword_content": "software"
+          },
+          {
+            "keyword_content": "services"
+          },
+          {
+            "keyword_content": "development"
+          },
+          {
+            "keyword_content": "technology"
+          }
+        ],
+        "author_content": "NEGO Software Engineering CO.,LTD."
+      },
+      "portfolio": {
+        "title": "Portfolio of NEGO SOFTWARE ENGINEERING CO.,LTD.",
+        "des_content": "NEGO Software Engineering showcases outstanding projects in software development and technology that meet our clients' needs.",
+        "keyword": [
+          {
+            "keyword_content": "portfolio"
+          },
+          {
+            "keyword_content": "software development"
+          },
+          {
+            "keyword_content": "technology"
+          },
+          {
+            "keyword_content": "software company"
+          }
+        ],
+        "author_content": "NEGO Software Engineering CO.,LTD."
+      },
+      "contact": {
+        "title": "Contact NEGO SOFTWARE ENGINEERING CO.,LTD.",
+        "des_content": "Contact NEGO Software Engineering for more information about our software services and solutions.",
+        "keyword": [
+          {
+            "keyword_content": "contact"
+          },
+          {
+            "keyword_content": "software"
+          },
+          {
+            "keyword_content": "solutions"
+          },
+          {
+            "keyword_content": "software company"
+          }
+        ],
+        "author_content": "NEGO Software Engineering CO.,LTD."
+      }
+    }
+  ]
+}

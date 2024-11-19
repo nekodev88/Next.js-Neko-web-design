@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #FEFEFE;
+  --foreground: #070606;
+}
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* scroll-behavior: smooth; */
+  
+  body {
+    color: var(--foreground);
+    background: var(--background);
+  }
+}
+
+@layer utilities {
+  .glassmorphism {
+    @apply bg-white bg-opacity-20 backdrop-blur-lg rounded-3xl p-8 shadow-lg;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Shadow for 3D effect */
+  }
+  .glassmorphism-small {
+    @apply bg-white bg-opacity-20 backdrop-blur-lg rounded-full px-5 md:px-10 py-2 shadow-lg;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  }
+  .text-hover {
+    @apply hover:text-customYellow duration-300 cursor-pointer
+  }
+  .text-hover-gray {
+    @apply hover:text-customGray1 duration-300 cursor-pointer
+  }
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0 ,0 ,0, 0.5)
+  }
+  .about-rounded-box1 {
+    border-radius: 20px 0 20px 20px;
+  }
+  .about-rounded-box2 {
+    border-radius: 20px 20px 20px 0px;
+  }
+}
+
+/* @apply transition-colors duration-200; */
+
+

@@ -1,0 +1,473 @@
+{
+  "navbar": {
+    "menu": {
+      "home": "หน้าหลัก",
+      "about": "เกี่ยวกับเรา",
+      "service": "บริการของเรา",
+      "portfolio": "ผลงานของเรา",
+      "contact": "ติดต่อเรา"
+    }
+  },
+  "page_section": [
+    {
+      "hero": {
+        "title": "บริการรับทำเว็บแอปพลิเคชันให้มีคุณภาพ ด้วยการทำงานอย่างมืออาชีพ",
+        "des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js เป็นเรื่องง่ายและสนุก การเขียนโค้ดเป็นทักษะที่สามารถพัฒนาได้ ภาษาไทยเป็นภาษาที่มีความสวยงามและน่าสนใจ"
+      }
+    },
+    {
+      "about": {
+        "title": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js เป็นเรื่องง่ายและสนุก การเขียนโค้ดเป็นทักษะที่สามารถพัฒนาได้ ",
+        "des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js เป็นเรื่องง่ายและสนุก การเขียนโค้ดเป็นทักษะที่สามารถพัฒนาได้ ภาษาไทยเป็นภาษาที่มีความสวยงามและน่าสนใจ การใช้ Tailwind CSS ทำให้การออกแบบเว็บไซต์เป็นเรื่องง่าย การศึกษาเป็นกระบวนการที่สำคัญในการพัฒนาตนเอง"
+      }
+    },
+    {
+      "service": [
+        {
+          "title": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js ",
+          "des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js เป็นเรื่องง่ายและสนุก การเขียนโค้ดเป็นทักษะที่สามารถพัฒนาได้ ภาษาไทยเป็นภาษาที่มีความสวยงาม",
+          "containerClassName": "col-span-1 lg:col-span-2 h-full min-h-[400px] lg:min-h-[400px]",
+          "divClassName": "max-w-xl relative",
+          "buttonLabel": "ติดต่อเรา",
+          "image": null,
+          "imageClassName": "",
+          "h2ClassName": "relative text-left text-balance text-2xl lg:text-5xl font-semibold text-black mt-3 md:mb-t",
+          "pClassName": "mt-4 text-left text-base/6 text-customGray1",
+          "spanContent": "OUR SERVICES",
+          "spanClassName": "text-customYellow",
+          "isService": true
+        },
+        {
+          "title": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js",
+          "des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js เป็นเรื่องง่ายและสนุก การเขียนโค้ดเป็นทักษะที่สามารถ",
+          "containerClassName": "col-span-1 min-h-[400px] bg-customGray overflow-hidden relative",
+          "divClassName": "max-w-80",
+          "image": "/picture/box/box2.svg",
+          "imageClassName": "w-96 h-auto absolute -right-5 -bottom-52",
+          "h2ClassName": "max-w-80 text-left text-balance text-2xl lg:text-3xl font-semibold tracking-[-0.015em] text-black",
+          "pClassName": "mt-4 max-w-[26rem] text-left text-base/6 text-customGray1",
+          "spanContent": null,
+          "spanClassName": ""
+        },
+        {
+          "title": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js เป็นเรื่องง่ายและสนุก การเขียนโค้ดเป็นทักษะที่สามารถพัฒนาได้ ",
+          "des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js เป็นเรื่องง่ายและสนุก การเขียนโค้ดเป็นทักษะที่สามารถพัฒนาได้ ภาษาไทยเป็นภาษาที่มีความสวยงาม",
+          "containerClassName": "col-span-1 min-h-[400px] bg-customGray lg:min-h-[600px] xl:min-h-[300px] overflow-hidden relative",
+          "divClassName": "max-w-sm",
+          "image": "/picture/box/box1.svg",
+          "imageClassName": "w-96 h-auto absolute -top-16",
+          "h2ClassName": "max-w-sm md:max-w-lg text-left text-balance text-2xl lg:text-3xl font-semibold tracking-[-0.015em] text-black",
+          "pClassName": "mt-4 max-w-[26rem] text-left text-base/6 text-customGray1",
+          "spanContent": null,
+          "spanClassName": ""
+        },
+        {
+          "title": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js เป็นเรื่องง่ายและสนุก การเขียนโค้ดเป็นทักษะที่สามารถพัฒนาได้",
+          "des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js เป็นเรื่องง่ายและสนุก การเขียนโค้ดเป็นทักษะที่สามารถพัฒนาได้ ภาษาไทยเป็นภาษาที่มีความสวยงาม",
+          "containerClassName": "col-span-1 lg:col-span-2 min-h-[400px] bg-customYellow1 bg-cover bg-no-repeat lg:min-h-[600px] xl:min-h-[300px]",
+          "divClassName": "max-w-sm",
+          "imageClassName": "",
+          "h2ClassName": "max-w-sm md:max-w-lg text-left text-balance text-2xl lg:text-3xl font-semibold tracking-[-0.015em] text-black",
+          "pClassName": "mt-4 max-w-[26rem] text-left text-base/6 text-customGray1",
+          "spanContent": null,
+          "spanClassName": ""
+        }
+      ]
+    },
+    {
+      "testimonial": {
+        "title": "คำรับรองจากลูกค้า",
+        "Jack_des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js เป็นเรื่องง่ายและสนุก การเขียนโค้ดเป็นทักษะที่สามารถพัฒนาได้ ภาษาไทยเป็นภาษาที่มีความสวยงามและน่าสนใจ การใช้ Tailwind CSS",
+        "Cameron_des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js เป็นเรื่องง่ายและสนุก การเขียนโค้ดเป็นทักษะที่สามารถพัฒนาได้ ภาษาไทยเป็นภาษาที่มีความสวยงามและน่าสนใจ การใช้ Tailwind CSS ",
+        "Gerard_des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js เป็นเรื่องง่ายและสนุก การเขียนโค้ดเป็นทักษะที่สามารถพัฒนาได้ ภาษาไทยเป็นภาษาที่มีความสวยงามและน่าสนใจ การใช้ Tailwind CSS "
+      }
+    }
+  ],
+  "footer": [
+    {
+      "mainLeft": {
+        "des": "บริการพัฒนาซอฟต์แวร์ระดับมืออาชีพเพื่อให้ตรงกับความต้องการทางธุรกิจเฉพาะของคุณ"
+      }
+    },
+    {
+      "service": [
+        {
+          "title": "บริการของเรา"
+        },
+        {
+          "services": [
+            {
+              "service": "การพัฒนาเว็บแอปพลิเคชัน"
+            },
+            {
+              "service": "การพัฒนาเว็บแอปพลิเคชัน"
+            },
+            {
+              "service": "การพัฒนาเว็บแอปพลิเคชัน"
+            },
+            {
+              "service": "การพัฒนาเว็บแอปพลิเคชัน"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "contact": {
+        "title": "ช่องทางการติดต่อ",
+        "email": "Neko@gmail.com",
+        "phone": "+66 999 9999",
+        "address": "เชียงใหม่, ประเทศไทย"
+      }
+    }
+  ],
+  "about_section": [
+    {
+      "hero": {
+        "pre_title": "บริษัทพัฒนาซอฟต์แวร์",
+        "title": "การพัฒนา Web และ Mobile App ด้วยคุณภาพ",
+        "des": "บริการพัฒนาซอฟต์แวร์ระดับมืออาชีพเพื่อให้ตรงกับความต้องการทางธุรกิจเฉพาะของคุณ"
+      }
+    },
+    {
+      "service": [
+        {
+          "title": "พวกเราทำอะไรบ้าง",
+          "des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js เป็นเรื่องง่ายและสนุก การเขียนโค้ดเป็นทักษะที่สามารถพัฒนาได้ ภาษาไทยเป็นภาษาที่มีความสวยงาม"
+        },
+        {
+          "service_section": [
+            {
+              "we_do": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js",
+              "we_pic": "/picture/computer.jpg",
+              "css_class": {
+                "image": "w-full h-full object-cover brightness-75 group-hover:scale-105 duration-300",
+                "overlay": "absolute bottom-0 p-5 w-full duration-300 bg-gradient-to-t from-customBrown/75 to-transparent",
+                "title": "text-customYellow1 text-xl font-semibold"
+              }
+            },
+            {
+              "we_do": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js",
+              "we_pic": "/picture/computer.jpg",
+              "css_class": {
+                "image": "w-full h-full object-cover brightness-75 group-hover:scale-105 duration-300",
+                "overlay": "absolute bottom-0 p-5 w-full duration-300 bg-gradient-to-t from-customBrown/75 to-transparent",
+                "title": "text-customYellow1 text-xl font-semibold"
+              }
+            },
+            {
+              "we_do": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js",
+              "we_pic": "/picture/computer.jpg",
+              "css_class": {
+                "image": "w-full h-full object-cover brightness-75 group-hover:scale-105 duration-300",
+                "overlay": "absolute bottom-0 p-5 w-full duration-300 bg-gradient-to-t from-customBrown/75 to-transparent",
+                "title": "text-customYellow1 text-xl font-semibold"
+              }
+            },
+            {
+              "we_do": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js",
+              "we_pic": "/picture/computer.jpg",
+              "css_class": {
+                "image": "w-full h-full object-cover brightness-75 group-hover:scale-105 duration-300",
+                "overlay": "absolute bottom-0 p-5 w-full duration-300 bg-gradient-to-t from-customBrown/75 to-transparent",
+                "title": "text-customYellow1 text-xl font-semibold"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": {
+        "year": "ปีในการทำงาน",
+        "customer": "ลูกค้าที่ไว้วางใจ",
+        "project": "โปรเจ็คกำลังดำเนินการ"
+      }
+    },
+    {
+      "about_content": [
+        {
+          "title": "บริษัทพัฒนาซอฟต์แวร์",
+          "des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js เป็นเรื่องง่ายและสนุก การเขียนโค้ดเป็นทักษะที่สามารถพัฒนาได้ ภาษาไทยเป็นภาษาที่มีความสวยงามและน่าสนใจ การใช้ Tailwind CSS ภาษาไทยเป็นภาษาที่มีความสวยงามและน่าสนใจ การใช้ Tailwind CSS"
+        },
+        {
+          "title": "บริษัทพัฒนาซอฟต์แวร์",
+          "des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js เป็นเรื่องง่ายและสนุก การเขียนโค้ดเป็นทักษะที่สามารถพัฒนาได้ ภาษาไทยเป็นภาษาที่มีความสวยงามและน่าสนใจ การใช้ Tailwind CSS ภาษาไทยเป็นภาษาที่มีความสวยงามและน่าสนใจ การใช้ Tailwind CSS"
+        },
+        {
+          "title": "บริษัทพัฒนาซอฟต์แวร์",
+          "des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js เป็นเรื่องง่ายและสนุก การเขียนโค้ดเป็นทักษะที่สามารถพัฒนาได้ ภาษาไทยเป็นภาษาที่มีความสวยงามและน่าสนใจ การใช้ Tailwind CSS ภาษาไทยเป็นภาษาที่มีความสวยงามและน่าสนใจ การใช้ Tailwind CSS"
+        },
+        {
+          "title": "บริษัทพัฒนาซอฟต์แวร์",
+          "des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js เป็นเรื่องง่ายและสนุก การเขียนโค้ดเป็นทักษะที่สามารถพัฒนาได้ ภาษาไทยเป็นภาษาที่มีความสวยงามและน่าสนใจ การใช้ Tailwind CSS ภาษาไทยเป็นภาษาที่มีความสวยงามและน่าสนใจ การใช้ Tailwind CSS"
+        }
+      ]
+    }
+  ],
+  "portfolio_section": [
+    {
+      "title": "ตัวอย่างลูกค้าที่ผ่านมา"
+    },
+    {
+      "hero": {
+        "title": "ผลงานที่ผ่านมา",
+        "des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js เป็นเรื่องง่ายและสนุก การเขียนโค้ดเป็นทักษะที่สามารถพัฒนาได้ ภาษาไทยเป็นภาษาที่มีความสวยงามและน่าสนใจ การใช้ Tailwind CSS เป็นเรื่องง่ายและสนุก การเขียนโค้ดเป็นทักษะที่สามารถพัฒนาได้ ภาษาไทยเป็นภาษาที่มีความสวยงามและน่าสนใจ การใช้ Tailwind CSS"
+      }
+    },
+    {
+      "portfolio": [
+        {
+          "id": 1,
+          "pic": "/picture/computer.jpg",
+          "logo": "/logo/nego-logo2.jpg",
+          "title": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js",
+          "des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js เป็นเรื่องง่ายและสนุก การเขียนโค้ดเป็นทักษะที่สามารถพัฒนาได้ ภาษาไทยเป็นภาษาที่มีความสวยงามและน่าสนใจ",
+          "category": "web_app"
+        },
+        {
+          "id": 2,
+          "pic": "/picture/computer.jpg",
+          "logo": "/logo/nego-logo2.jpg",
+          "title": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js",
+          "des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js เป็นเรื่องง่ายและสนุก การเขียนโค้ดเป็นทักษะที่สามารถพัฒนาได้ ภาษาไทยเป็นภาษาที่มีความสวยงามและน่าสนใจ",
+          "category": "web_app"
+        },
+        {
+          "id": 3,
+          "pic": "/picture/computer.jpg",
+          "logo": "/logo/nego-logo2.jpg",
+          "title": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js",
+          "des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js เป็นเรื่องง่ายและสนุก การเขียนโค้ดเป็นทักษะที่สามารถพัฒนาได้ ภาษาไทยเป็นภาษาที่มีความสวยงามและน่าสนใจ",
+          "category": "web_app"
+        },
+        {
+          "id": 4,
+          "pic": "/picture/computer.jpg",
+          "logo": "/logo/nego-logo2.jpg",
+          "title": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js",
+          "des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js เป็นเรื่องง่ายและสนุก การเขียนโค้ดเป็นทักษะที่สามารถพัฒนาได้ ภาษาไทยเป็นภาษาที่มีความสวยงามและน่าสนใจ",
+          "category": "mobile_app"
+        },
+        {
+          "id": 5,
+          "pic": "/picture/computer.jpg",
+          "logo": "/logo/nego-logo2.jpg",
+          "title": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js",
+          "des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js เป็นเรื่องง่ายและสนุก การเขียนโค้ดเป็นทักษะที่สามารถพัฒนาได้ ภาษาไทยเป็นภาษาที่มีความสวยงามและน่าสนใจ",
+          "category": "mobile_app"
+        },
+        {
+          "id": 6,
+          "pic": "/picture/computer.jpg",
+          "logo": "/logo/nego-logo2.jpg",
+          "title": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js",
+          "des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js เป็นเรื่องง่ายและสนุก การเขียนโค้ดเป็นทักษะที่สามารถพัฒนาได้ ภาษาไทยเป็นภาษาที่มีความสวยงามและน่าสนใจ",
+          "category": "mobile_app"
+        },
+        {
+          "id": 7,
+          "pic": "/picture/computer.jpg",
+          "logo": "/logo/nego-logo2.jpg",
+          "title": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js",
+          "des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js เป็นเรื่องง่ายและสนุก การเขียนโค้ดเป็นทักษะที่สามารถพัฒนาได้ ภาษาไทยเป็นภาษาที่มีความสวยงามและน่าสนใจ",
+          "category": "integration"
+        },
+        {
+          "id": 8,
+          "pic": "/picture/computer.jpg",
+          "logo": "/logo/nego-logo2.jpg",
+          "title": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js",
+          "des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js เป็นเรื่องง่ายและสนุก การเขียนโค้ดเป็นทักษะที่สามารถพัฒนาได้ ภาษาไทยเป็นภาษาที่มีความสวยงามและน่าสนใจ",
+          "category": "integration"
+        },
+        {
+          "id": 9,
+          "pic": "/picture/computer.jpg",
+          "logo": "/logo/nego-logo2.jpg",
+          "title": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js",
+          "des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js เป็นเรื่องง่ายและสนุก การเขียนโค้ดเป็นทักษะที่สามารถพัฒนาได้ ภาษาไทยเป็นภาษาที่มีความสวยงามและน่าสนใจ",
+          "category": "integration"
+        }
+      ]
+    },
+    {
+      "others": {
+        "live": "ไปที่เว็ปไซส์",
+        "readMore": "อ่านต่อ"
+      }
+    }
+  ],
+  "service_section": [
+    {
+      "hero": {
+        "title": "พัฒนาsoftwareและให้คำปรึกษา",
+        "des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js เป็นเรื่องง่ายและสนุก การเขียนโค้ดเป็นทักษะที่สามารถพัฒนาได้ ภาษาไทยเป็นภาษาที่มีความสวยงามและน่าสนใจ การใช้ Tailwind CSS ทำให้การออกแบบเว็บไซต์เป็นเรื่องง่าย การศึกษาเป็นกระบวนการที่สำคัญในการพัฒนาตนเอง",
+        "img": "/picture/computer.jpg"
+      }
+    },
+    {
+      "feature": [
+        {
+          "title": "พวกเราทำอะไรบ้าง",
+          "des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js เป็นเรื่องง่ายและสนุก การเขียนโค้ดเป็นทักษะที่สามารถพัฒนาได้ ภาษาไทยเป็นภาษาที่มีความสวยงาม"
+        },
+        {
+          "feature_section": [
+            {
+              "pic": "/picture/computer.jpg",
+              "des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js"
+            },
+            {
+              "pic": "/picture/computer.jpg",
+              "des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js"
+            },
+            {
+              "pic": "/picture/computer.jpg",
+              "des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js"
+            },
+            {
+              "pic": "/picture/computer.jpg",
+              "des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js"
+            },
+            {
+              "pic": "/picture/computer.jpg",
+              "des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js"
+            },
+            {
+              "pic": "/picture/computer.jpg",
+              "des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js"
+            },
+            {
+              "pic": "/picture/computer.jpg",
+              "des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js"
+            },
+            {
+              "pic": "/picture/computer.jpg",
+              "des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "contact_section": [
+    {
+      "mainLeft": {
+        "title": "พูดคุยกับเราเพื่อสำรวจโอกาสใหม่ ๆ ร่วมกัน",
+        "company": "NEKO SOFTWARE ENGINEERING CO.,LTD.",
+        "address": "เชียงใหม่, ประเทศไทย"
+      }
+    },
+    {
+      "formRight": {
+        "title": "ติดต่อเรา",
+        "name": "ชื่อ-นามสกุล",
+        "email": "อีเมล์",
+        "company": "บริษัท",
+        "subject": "หัวข้อ",
+        "message": "ข้อความ",
+        "submit": "ส่ง"
+      }
+    }
+  ],
+  "head_meta_tag": [
+    {
+      "page": {
+        "title": "บริษัท เนโก๊ะ ซอฟแวร์ เอนจิเนียริ่ง",
+        "des_content": "บริการพัฒนาและให้คำปรึกษาซอฟต์แวร์ที่มุ่งมั่นสู่ความสำเร็จของลูกค้า",
+        "keyword": [
+          {
+            "keyword_content": "ซอฟต์แวร์"
+          },
+          {
+            "keyword_content": "พัฒนาเว็บไซต์"
+          },
+          {
+            "keyword_content": "พัฒนาซอฟต์แวร์"
+          },
+          {
+            "keyword_content": "การให้คำปรึกษา"
+          }
+        ],
+        "author_content": "บริษัท เนโก๊ะ ซอฟแวร์ เอนจิเนียริ่ง"
+      },
+      "about": {
+        "title": "เกี่ยวกับ บริษัท เนโก๊ะ ซอฟแวร์ เอนจิเนียริ่ง",
+        "des_content": "บริษัท เนโก๊ะ ซอฟแวร์ เอนจิเนียริ่งให้บริการพัฒนาซอฟต์แวร์และให้คำปรึกษาทางเทคโนโลยีที่มีคุณภาพสูงสำหรับธุรกิจของคุณ.",
+        "keyword": [
+          {
+            "keyword_content": "ซอฟต์แวร์"
+          },
+          {
+            "keyword_content": "พัฒนา"
+          },
+          {
+            "keyword_content": "คำปรึกษา"
+          },
+          {
+            "keyword_content": "เทคโนโลยี"
+          }
+        ],
+        "author_content": "บริษัท เนโก๊ะ ซอฟแวร์ เอนจิเนียริ่ง"
+      },
+      "service": {
+        "title": "บริการของ บริษัท เนโก๊ะ ซอฟแวร์ เอนจิเนียริ่ง",
+        "des_content": "บริษัท เนโก๊ะ ซอฟแวร์ เอนจิเนียริ่ง ให้บริการพัฒนาซอฟต์แวร์และเทคโนโลยีที่ตอบโจทย์ความต้องการของธุรกิจคุณ.",
+        "keyword": [
+          {
+            "keyword_content": "ซอฟต์แวร์"
+          },
+          {
+            "keyword_content": "บริการ"
+          },
+          {
+            "keyword_content": "พัฒนา"
+          },
+          {
+            "keyword_content": "เทคโนโลยี"
+          }
+        ],
+        "author_content": "บริษัท เนโก๊ะ ซอฟแวร์ เอนจิเนียริ่ง"
+      },
+      "portfolio": {
+        "title": "ผลงานของ บริษัท เนโก๊ะ ซอฟแวร์ เอนจิเนียริ่ง",
+        "des_content": "บริษัท เนโก๊ะ ซอฟแวร์ เอนจิเนียริ่ง มีผลงานที่โดดเด่นในด้านการพัฒนาซอฟต์แวร์และเทคโนโลยีที่ตอบโจทย์ลูกค้าของเรา.",
+        "keyword": [
+          {
+            "keyword_content": "ผลงาน"
+          },
+          {
+            "keyword_content": "พัฒนาซอฟต์แวร์"
+          },
+          {
+            "keyword_content": "เทคโนโลยี"
+          },
+          {
+            "keyword_content": "บริษัทซอฟต์แวร์"
+          }
+        ],
+        "author_content": "บริษัท เนโก๊ะ ซอฟแวร์ เอนจิเนียริ่ง"
+      },
+      "contact": {
+        "title": "ติดต่อ ของ บริษัท เนโก๊ะ ซอฟแวร์ เอนจิเนียริ่ง",
+        "des_content": "ติดต่อ NEGO Software Engineering เพื่อสอบถามข้อมูลเพิ่มเติมเกี่ยวกับบริการและโซลูชันซอฟต์แวร์ของเรา.",
+        "keyword": [
+          {
+            "keyword_content": "ติดต่อ"
+          },
+          {
+            "keyword_content": "ซอฟต์แวร์"
+          },
+          {
+            "keyword_content": "แก้ปัญหา"
+          },
+          {
+            "keyword_content": "บริษัทซอฟต์แวร์"
+          }
+        ],
+        "author_content": "บริษัท เนโก๊ะ ซอฟแวร์ เอนจิเนียริ่ง"
+      }
+    }
+  ]
+}
