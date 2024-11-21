@@ -36,7 +36,7 @@ const ContactForm = () => {
                   placeholder={contactForm.name}
                 />
               </div>
-              <div className="flex flex-col w-full gap-2">
+              <div className="flex-col w-full gap-2 hidden md:block">
                 <label htmlFor="email" className="text-xl font-semibold">
                   {contactForm.email}
                 </label>
@@ -51,6 +51,20 @@ const ContactForm = () => {
                 />
               </div>
             </div>
+            <div className="flex flex-col w-full gap-2 md:hidden">
+                <label htmlFor="email" className="text-xl font-semibold">
+                  {contactForm.email}
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email" 
+                  autoComplete="email"
+                  required
+                  className="bg-transparent border-[1px] border-customYellow outline-0 rounded-md w-full h-[40px] p-2"
+                  placeholder={contactForm.email}
+                />
+              </div>
             {/* company */}
             <div className="flex flex-col w-full gap-2">
               <label htmlFor="company" className="text-xl font-semibold">

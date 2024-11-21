@@ -5,7 +5,7 @@ import { useState, useEffect, useMemo } from "react";
 import { useLanguage } from "../ClientLayout";
 import ScrollAnimation from "../ScrollAnimation";
 
-const PortfolioExploreMenu = () => {
+const PortfolioExploreMenu = () => { 
   const { content } = useLanguage();
 
   const portfolioTitle = content.portfolio_section[0].title || "";
@@ -37,7 +37,7 @@ const PortfolioExploreMenu = () => {
   const displayedData = showAll ? filteredData : filteredData.slice(0, 6);
 
   return (
-    <section className="w-full h-auto flex justify-center items-center p-3 md:p-5 lg:p-10 flex-col">
+    <section className="w-full h-auto flex justify-center items-center p-0 lg:p-10 flex-col">
       <ScrollAnimation className="flex flex-col justify-center items-center">
         <h3 className="text-customYellow mt-14 mb-5">PORTFOLIO</h3>
         <h1 className="text-2xl md:text-4xl font-bold mb-7 lg:mb-14 text-center">
@@ -82,7 +82,7 @@ const PortfolioExploreMenu = () => {
           </button>
         </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full my-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6 xl:gap-10 w-full my-5">
         {displayedData.map((item) => {
           return (
             <div

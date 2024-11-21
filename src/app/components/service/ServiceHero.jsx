@@ -17,8 +17,8 @@ const ServiceHero = () => {
           <h1 className="text-3xl sm:text-5xl font-bold text-customYellow mb-10 leading-[40px] sm:leading-[60px]">{serviceHero.title}</h1>
           <p className="text-base sm:text-xl font-medium text-customYellow1">{serviceHero.des}</p>
         </ScrollAnimation>
-        <div className="w-[80%] sm:w-[60%] lg:w-[40%]">
-          <img src={serviceHero.img} alt="computer" className="h-full w-auto object-cover rounded-3xl" />
+        <div className="w-[90%] sm:w-[60%] lg:w-[40%]">
+          <img src={serviceHero.img} alt="computer" className="object-cover rounded-3xl" />
         </div>
       </div>
     </section>

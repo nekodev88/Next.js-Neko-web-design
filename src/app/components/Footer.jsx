@@ -53,16 +53,16 @@ const Footer = () => {
             />
             <p>{footerContact.address}</p>
           </div>
-          <div className="flex gap-5 mt-5 cursor-pointer relative">
-            <Image
-              src="/icon/facebook.svg"
-              width={35}
-              height={35}
-              alt="Facebook"
-              className=""
-            />
-            <div style={{ position: "relative", width: "35px", height: "35px" }}>
-            <Image src="/icon/line.svg" fill alt="Line" />
+          <div className="flex gap-5 mt-5 cursor-pointer">
+            <div
+              style={{ position: "relative", width: "35px", height: "35px" }}
+            >
+              <Image src="/icon/facebook.svg" fill alt="Facebook" />
+            </div>
+            <div
+              style={{ position: "relative", width: "35px", height: "35px" }}
+            >
+              <Image src="/icon/line.svg" fill alt="Line" />
             </div>
             <div
               style={{ position: "relative", width: "35px", height: "35px" }}
