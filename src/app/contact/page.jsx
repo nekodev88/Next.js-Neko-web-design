@@ -3,26 +3,30 @@
 import React from "react";
 import ContactForm from "../components/contact/ContactForm";
 import { useLanguage } from "../components/ClientLayout";
-import Head from "next/head";
 
 const Contact = () => {
   const { content } = useLanguage();
-  const headComponent = content.head_meta_tag[4]?.contact || {}; //optional changing
+  const headComponent = content.head_meta_tag[4].contact || [];
 
-  // ดึง keywords จาก JSON
-  const keywordsArray =
-    headComponent.keyword?.map((item) => item.keyword_content) || [];
-  // รวมคำค้นหาเป็นสตริง
-  const keywords = keywordsArray.join(", ");
   return (
     <>
-      <Head>
+      <head>
         <title>{headComponent.title}</title>
         <meta name="description" content={headComponent.des_content} />
-        <meta name="keywords" content={keywords} />
-        <meta name="author" content={headComponent.author_content} />
-        {/* <link rel="canonical" href="https://www.google.co.th" /> */}
-      </Head>
+        {/* Open Graph Meta Tags สำหรับการแชร์ในโซเชียลมีเดีย */}
+        <meta property="og:title" content={headComponent.og_title} />
+        <meta property="og:description" content={headComponent.og_des} />
+        {/* <meta property="og:image" content="https://example.com/og-image.jpg" />
+        <meta property="og:url" content="https://example.com/page" /> */}
+        {/* เป็นการแสดงผลแบบสรุปเนื้อหาพร้อมภาพขนาดใหญ่ (รูปภาพจะถูกใช้เป็นส่วนหนึ่งในการแสดงผล) */}
+        <meta name="twitter:card" content="summary_large_image" />
+        {/* ชื่อเรื่องที่จะแสดงบน Twitter เมื่อมีการแชร์ลิงก์ */}
+        <meta name="twitter:title" content={headComponent.twitter_title} />
+        {/* คำอธิบายที่จะแสดงใน Twitter ซึ่งจะช่วยให้ผู้ใช้เข้าใจเนื้อหาของลิงก์ได้ดียิ่งขึ้น */}
+        <meta name="twitter:description" content={headComponent.twitter_des} />
+        {/* URL ของภาพที่จะใช้แสดงผลใน Twitter card เมื่อมีการแชร์ลิงก์  */}
+        {/* <meta name="twitter:image" content="https://example.com/twitter-image.jpg" /> */}
+      </head>
 
       <ContactForm />
     </>

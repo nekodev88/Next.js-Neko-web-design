@@ -220,7 +220,7 @@
         {
           "id": 1,
           "pic": "/picture/computer.jpg",
-          "logo": "/logo/nego-logo2.jpg",
+          "logo": "/logo/neko-logo2.jpg",
           "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
           "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!",
           "category": "web_app"
@@ -228,7 +228,7 @@
         {
           "id": 2,
           "pic": "/picture/computer.jpg",
-          "logo": "/logo/nego-logo2.jpg",
+          "logo": "/logo/neko-logo2.jpg",
           "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
           "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!",
           "category": "web_app"
@@ -236,7 +236,7 @@
         {
           "id": 3,
           "pic": "/picture/computer.jpg",
-          "logo": "/logo/nego-logo2.jpg",
+          "logo": "/logo/neko-logo2.jpg",
           "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
           "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!",
           "category": "web_app"
@@ -244,7 +244,7 @@
         {
           "id": 4,
           "pic": "/picture/computer.jpg",
-          "logo": "/logo/nego-logo2.jpg",
+          "logo": "/logo/neko-logo2.jpg",
           "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
           "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!",
           "category": "mobile_app"
@@ -252,7 +252,7 @@
         {
           "id": 5,
           "pic": "/picture/computer.jpg",
-          "logo": "/logo/nego-logo2.jpg",
+          "logo": "/logo/neko-logo2.jpg",
           "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
           "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!",
           "category": "mobile_app"
@@ -260,7 +260,7 @@
         {
           "id": 6,
           "pic": "/picture/computer.jpg",
-          "logo": "/logo/nego-logo2.jpg",
+          "logo": "/logo/neko-logo2.jpg",
           "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
           "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!",
           "category": "mobile_app"
@@ -268,7 +268,7 @@
         {
           "id": 7,
           "pic": "/picture/computer.jpg",
-          "logo": "/logo/nego-logo2.jpg",
+          "logo": "/logo/neko-logo2.jpg",
           "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
           "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!",
           "category": "integration"
@@ -276,7 +276,7 @@
         {
           "id": 8,
           "pic": "/picture/computer.jpg",
-          "logo": "/logo/nego-logo2.jpg",
+          "logo": "/logo/neko-logo2.jpg",
           "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
           "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!",
           "category": "integration"
@@ -284,7 +284,7 @@
         {
           "id": 9,
           "pic": "/picture/computer.jpg",
-          "logo": "/logo/nego-logo2.jpg",
+          "logo": "/logo/neko-logo2.jpg",
           "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
           "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!",
           "category": "integration"
@@ -374,99 +374,52 @@
   "head_meta_tag": [
     {
       "page": {
-        "title": "NEGO SOFTWARE ENGINEERING CO.,LTD.",
-        "des_content": "NEGO Software Engineering provides high-quality software development and technology consulting services for your business.",
-        "keyword": [
-          {
-            "keyword_content": "software"
-          },
-          {
-            "keyword_content": "development"
-          },
-          {
-            "keyword_content": "consulting"
-          },
-          {
-            "keyword_content": "technology"
-          }
-        ],
-        "author_content": "NEGO Software Engineering CO.,LTD."
-      },
+        "title": "Homepage - NEKO SOFTWARE ENGINEERING CO.,LTD.",
+        "des_content": "NEKO Software Engineering provides high-quality software development and technology consulting services for your business.",
+        "og_title": "Web Development Company Offering Custom Website and Software Development Services",
+        "og_des": "We specialize in creating custom websites and providing software development services tailored to your business needs.",
+        "twitter_title": "Web Development Company Offering Custom Website and Software Development Services",
+        "twitter_des": "We specialize in creating custom websites and providing software development services tailored to your business needs."
+      }
+    },
+    {
       "about": {
-        "title": "About NEGO SOFTWARE ENGINEERING CO.,LTD.",
-        "des_content": "NEGO Software Engineering provides high-quality software development and technology consulting services for your business.",
-        "keyword": [
-          {
-            "keyword_content": "software"
-          },
-          {
-            "keyword_content": "development"
-          },
-          {
-            "keyword_content": "consulting"
-          },
-          {
-            "keyword_content": "technology"
-          }
-        ],
-        "author_content": "NEGO Software Engineering CO.,LTD."
-      },
+        "title": "About Us - NEKO Software Engineering",
+        "des_content": "We are a software development company committed to providing high-quality services to help your business grow sustainably.",
+        "og_title": "About Us | NEKO Software Engineering",
+        "og_des": "A software development company offering website and software development services tailored to meet customer needs.",
+        "twitter_title": "About Us | NEKO Software Engineering",
+        "twitter_des": "Learn more about our company, experts in website and software development."
+      }
+    },
+    {
       "service": {
-        "title": "Services of NEGO SOFTWARE ENGINEERING CO.,LTD.",
-        "des_content": "NEGO Software Engineering provides high-quality software development and technology solutions tailored to meet your business needs.",
-        "keyword": [
-          {
-            "keyword_content": "software"
-          },
-          {
-            "keyword_content": "services"
-          },
-          {
-            "keyword_content": "development"
-          },
-          {
-            "keyword_content": "technology"
-          }
-        ],
-        "author_content": "NEGO Software Engineering CO.,LTD."
-      },
+        "title": "Our Services - NEKO Software Engineering",
+        "des_content": "We offer high-quality software and website development services to help your business grow and succeed.",
+        "og_title": "Our Services | NEKO Software Engineering",
+        "og_des": "We specialize in developing custom software and websites tailored to meet the needs of businesses.",
+        "twitter_title": "Our Services | NEKO Software Engineering",
+        "twitter_des": "We specialize in developing websites and software solutions that help businesses succeed."
+      }
+    },
+    {
       "portfolio": {
-        "title": "Portfolio of NEGO SOFTWARE ENGINEERING CO.,LTD.",
-        "des_content": "NEGO Software Engineering showcases outstanding projects in software development and technology that meet our clients' needs.",
-        "keyword": [
-          {
-            "keyword_content": "portfolio"
-          },
-          {
-            "keyword_content": "software development"
-          },
-          {
-            "keyword_content": "technology"
-          },
-          {
-            "keyword_content": "software company"
-          }
-        ],
-        "author_content": "NEGO Software Engineering CO.,LTD."
-      },
+        "title": "Our Portfolio - NEKO Software Engineering",
+        "des_content": "We are proud to showcase our successful software and website development projects that helped our clients achieve their goals.",
+        "og_title": "Our Portfolio | NEKO Software Engineering",
+        "og_des": "Our portfolio includes custom websites and software projects that meet the high standards of our clients.",
+        "twitter_title": "Our Portfolio | NEKO Software Engineering",
+        "twitter_des": "Check out our software and website development projects that have empowered businesses to succeed."
+      }
+    },
+    {
       "contact": {
-        "title": "Contact NEGO SOFTWARE ENGINEERING CO.,LTD.",
-        "des_content": "Contact NEGO Software Engineering for more information about our software services and solutions.",
-        "keyword": [
-          {
-            "keyword_content": "contact"
-          },
-          {
-            "keyword_content": "software"
-          },
-          {
-            "keyword_content": "solutions"
-          },
-          {
-            "keyword_content": "software company"
-          }
-        ],
-        "author_content": "NEGO Software Engineering CO.,LTD."
+        "title": "Contact Us - NEKO Software Engineering",
+        "des_content": "If you need more information about our services or have any questions, feel free to contact us using the information below.",
+        "og_title": "Contact Us | NEKO Software Engineering",
+        "og_des": "Get in touch with us to learn more about our software and website development services that suit your business needs.",
+        "twitter_title": "Contact Us | NEKO Software Engineering",
+        "twitter_des": "Contact us for further inquiries about our software and website development services."
       }
     }
   ]

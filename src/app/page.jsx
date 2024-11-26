@@ -1,13 +1,11 @@
-// app/page.js หรือไฟล์ที่คุณต้องการให้ดึงข้อมูลจากไฟล์ JSON
 import Hero from "./components/page/Hero";
 import LogoSlide from "./components/page/LogoSlide";
 import About from "./components/page/About";
 import { Services } from "./components/page/Services";
 import Testimonial from "./components/page/Testimonial";
 import PortfolioExploreMenu from "./components/portfolio/PortfolioExploreMenu";
-import Head from "next/head";
 
-// ฟังก์ชันที่ดึงข้อมูลจากไฟล์ JSON ใน public
+// ฟังก์ชันที่ดึงข้อมูลจากไฟล์ JSON
 async function getContent(lang = "th") {
   try {
     const res = await fetch(`http://localhost:3000/locales/${lang}.json`);
@@ -21,26 +19,34 @@ async function getContent(lang = "th") {
   }
 }
 
+// generateMetadata
+export async function generateMetadata() {
+  const contentTh = await getContent("th");  
+  const contentEn = await getContent("en");
+
+  const headComponentTh = contentTh.head_meta_tag?.[0]?.page || {};  
+  const headComponentEn = contentEn.head_meta_tag?.[0]?.page || {}; 
+
+  // รวมข้อมูลทั้งสองภาษาใน metadata
+  return {
+    title: `${headComponentTh.title} | ${headComponentEn.title}`,  
+    description: `${headComponentTh.des_content} | ${headComponentEn.des_content}`, 
+    openGraph: {
+      title: `${headComponentTh.og_title} | ${headComponentEn.og_title}`,
+      description: `${headComponentTh.og_des} | ${headComponentEn.og_des}`,
+    },
+    twitter: {
+      title: `${headComponentTh.twitter_title} | ${headComponentEn.twitter_title}`,
+      description: `${headComponentTh.twitter_des} | ${headComponentEn.twitter_des}`,
+    },
+  };
+}
+
 // Component หลัก
-export default async function Home({ params }) {
-  const lang = params.lang || 'th';  // กำหนดภาษาจาก params หรือใช้ 'th' เป็นค่า default
-  const content = await getContent(lang);  // ดึงข้อมูลจากไฟล์ JSON
-
-  const headComponent = content.head_meta_tag?.[0]?.page || {};
-
-  // ดึง keywords จาก JSON
-  const keywordsArray = headComponent.keyword?.map(item => item.keyword_content) || [];
-  const keywords = keywordsArray.join(', ');
+export default async function Home() {
 
   return (
     <>
-      <Head>
-        <title>{headComponent.title || 'Default Title'}</title>
-        <meta name="description" content={headComponent.des_content || 'Default Description'} />
-        <meta name="keywords" content={keywords} />
-        <meta name="author" content={headComponent.author_content || 'Default Author'} />
-      </Head>
-
       <Hero />
       <LogoSlide />
       <About />

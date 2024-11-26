@@ -52,7 +52,7 @@ const Navbar = () => {
       >
         <div style={{ position: "relative", width: "60px", height: "60px" }}>
           <Image
-            src="/logo/nego-logo.jpg"
+            src="/logo/neko-logo.jpg"
             fill
             alt="logo"
             priority

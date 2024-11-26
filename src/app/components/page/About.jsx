@@ -12,7 +12,7 @@ const About = () => {
     <section className="bg-custom-curve-bg bg-cover bg-no-repeat overflow-hidden bg-[center_bottom_-100px] w-full h-[700px] md:h-[600px] lg:h-[450px] p-10 rounded-bl-3xl rounded-br-3xl flex flex-col lg:flex-row">
       <div className="w-full h-[40%] md:h-[50%] lg:w-[50%] lg:h-full pl-5 xl:pl-20 pt-5">
         <Image
-          src="/logo/nego-logo2.jpg"
+          src="/logo/neko-logo2.jpg"
           width={80}
           height={80}
           alt="logo"

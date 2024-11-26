@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="p-10 lg:p-20 grid grid-rows-3 md:grid-rows-none md:grid-cols-3 lg:grid-cols-4 w-full row-span-1 gap-10 justify-center items-center md:justify-start md:items-center">
         <div className="row-span-1 md:col-span-1 lg:col-span-2 h-full flex flex-col justify-center items-center md:justify-start md:items-start max-w-sm">
           <Image
-            src="/logo/nego-logo2.jpg"
+            src="/logo/neko-logo2.jpg"
             width={80}
             height={80}
             alt="logo"
