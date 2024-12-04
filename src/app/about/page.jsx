@@ -6,6 +6,8 @@ import AboutFeature from '../components/about/AboutFeature'
 import AboutNumber from '../components/about/AboutNumber'
 import AboutStickyScroll from '../components/about/AboutStickyScroll'
 import { useLanguage } from '../components/ClientLayout';
+import AboutOrganization from '../components/about/AboutOrganization';
+import AboutOrgDiagrame from '../components/about/AboutOrgDiagrame';
 
 const About = () => {
   const { content } = useLanguage();
@@ -32,7 +34,9 @@ const About = () => {
      </head>
 
     <AboutHero />
-    <AboutFeature />
+    <AboutOrganization />
+    {/* <AboutOrgDiagrame /> */}
+    <AboutFeature /> 
     <AboutNumber />
     <AboutStickyScroll />
     </>

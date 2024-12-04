@@ -5,7 +5,7 @@
       "about": "About Us",
       "service": "Services",
       "portfolio": "Success Stories",
-      "contact": "Contacts"
+      "contact": "Contacts" 
     }
   },
   "page_section": [
@@ -201,6 +201,120 @@
         {
           "title": "Running out of content",
           "des": "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity."
+        }
+      ]
+    },
+    {
+      "about_organization": [
+        {
+          "title": {
+            "ceo": "CEO",
+            "general_ad": "General Administrator",
+            "personnel_ad": "Personnel Administration Unit",
+            "developer": "Developer",
+            "general_em": "General staff"
+          }
+        },
+        {
+          "ceo": {
+            "position": "CEO",
+            "name": "Jack",
+            "pic": "/picture/people/Jack.png",
+            "email": "Jack@gmail.com",
+            "tel": "099-9999999"
+          }
+        },
+        {
+          "general_ad": [
+            {
+              "position": "General Administrator",
+              "name": "Jack",
+              "pic": "/picture/people/Jack.png",
+              "email": "Jack@gmail.com",
+              "tel": "099-9999999"
+            },
+            {
+              "position": "General Administrator",
+              "name": "Jill",
+              "pic": "/picture/people/Jack.png",
+              "email": "Jack@gmail.com",
+              "tel": "099-9999999"
+            },
+            {
+              "position": "General Administrator",
+              "name": "John",
+              "pic": "/picture/people/Jack.png",
+              "email": "Jack@gmail.com",
+              "tel": "099-9999999"
+            }
+          ]
+        },
+        {
+          "personnel_ad": {
+            "position": "Personnel Administrator",
+            "name": "JJ",
+            "pic": "/picture/people/Jack.png",
+            "email": "Jack@gmail.com",
+            "tel": "099-9999999"
+          }
+        },
+        {
+          "developer": [
+            {
+              "position": "Front-end",
+              "name": "JJ",
+              "pic": "/picture/people/Jack.png"
+            },
+            {
+              "position": "Front-end",
+              "name": "JJ",
+              "pic": "/picture/people/Jack.png"
+            },
+            {
+              "position": "Back-end",
+              "name": "JJ",
+              "pic": "/picture/people/Jack.png"
+            },
+            {
+              "position": "Full stack",
+              "name": "JJ",
+              "pic": "/picture/people/Jack.png"
+            },
+            {
+              "position": "Flutter",
+              "name": "JJ",
+              "pic": "/picture/people/Jack.png"
+            },
+            {
+              "position": "Flutter",
+              "name": "JJ",
+              "pic": "/picture/people/Jack.png"
+            }
+          ]
+        },
+        {
+          "general_em": [
+            {
+              "position": "Accountant",
+              "name": "JJ",
+              "pic": "/picture/people/Jack.png"
+            },
+            {
+              "position": "Graphic design",
+              "name": "JJ",
+              "pic": "/picture/people/Jack.png"
+            },
+            {
+              "position": "UX-Ui designer",
+              "name": "JJ",
+              "pic": "/picture/people/Jack.png"
+            },
+            {
+              "position": "Admin",
+              "name": "JJ",
+              "pic": "/picture/people/Jack.png"
+            }
+          ]
         }
       ]
     }

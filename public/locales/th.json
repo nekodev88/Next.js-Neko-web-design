@@ -3,7 +3,7 @@
     "menu": {
       "home": "หน้าหลัก",
       "about": "เกี่ยวกับเรา",
-      "service": "บริการของเรา", 
+      "service": "บริการของเรา",
       "portfolio": "ผลงานของเรา",
       "contact": "ติดต่อเรา"
     }
@@ -201,6 +201,120 @@
         {
           "title": "บริษัทพัฒนาซอฟต์แวร์",
           "des": "การพัฒนาเว็บแอปพลิเคชันด้วย Next.js เป็นเรื่องง่ายและสนุก การเขียนโค้ดเป็นทักษะที่สามารถพัฒนาได้ ภาษาไทยเป็นภาษาที่มีความสวยงามและน่าสนใจ การใช้ Tailwind CSS ภาษาไทยเป็นภาษาที่มีความสวยงามและน่าสนใจ การใช้ Tailwind CSS"
+        }
+      ]
+    },
+    {
+      "about_organization": [
+        {
+          "title": {
+            "ceo": "CEO",
+            "general_ad": "หัวหน้างานบริหารทั่วไป",
+            "personnel_ad": "หน่วยบริหารงานบุคคล",
+            "developer": "Developer",
+            "general_em": "หน่วยอื่นๆ และ พนักงานทั่วไป"
+          }
+        },
+        {
+          "ceo": {
+            "position": "CEO",
+            "name": "Jack",
+            "pic": "/picture/people/Jack.png",
+            "email": "Jack@gmail.com",
+            "tel": "099-9999999"
+          }
+        },
+        {
+          "general_ad": [
+            {
+              "position": "ผู้บริหาร",
+              "name": "Jack",
+              "pic": "/picture/people/Jack.png",
+              "email": "Jack@gmail.com",
+              "tel": "099-9999999"
+            },
+            {
+              "position": "ผู้บริหาร",
+              "name": "Jill",
+              "pic": "/picture/people/Jack.png",
+              "email": "Jack@gmail.com",
+              "tel": "099-9999999"
+            },
+            {
+              "position": "ผู้บริหาร",
+              "name": "John",
+              "pic": "/picture/people/Jack.png",
+              "email": "Jack@gmail.com",
+              "tel": "099-9999999"
+            }
+          ]
+        },
+        {
+          "personnel_ad": {
+            "position": "บริหารงานบุคคล",
+            "name": "JJ",
+            "pic": "/picture/people/Jack.png",
+            "email": "Jack@gmail.com",
+            "tel": "099-9999999"
+          }
+        },
+        {
+          "developer": [
+            {
+              "position": "Front-end",
+              "name": "JJ",
+              "pic": "/picture/people/Jack.png"
+            },
+            {
+              "position": "Front-end",
+              "name": "JJ",
+              "pic": "/picture/people/Jack.png"
+            },
+            {
+              "position": "Back-end",
+              "name": "JJ",
+              "pic": "/picture/people/Jack.png"
+            },
+            {
+              "position": "Full stack",
+              "name": "JJ",
+              "pic": "/picture/people/Jack.png"
+            },
+            {
+              "position": "Flutter",
+              "name": "JJ",
+              "pic": "/picture/people/Jack.png"
+            },
+            {
+              "position": "Flutter",
+              "name": "JJ",
+              "pic": "/picture/people/Jack.png"
+            }
+          ]
+        },
+        {
+          "general_em": [
+            {
+              "position": "บัญชี",
+              "name": "JJ",
+              "pic": "/picture/people/Jack.png"
+            },
+            {
+              "position": "กราฟิก",
+              "name": "JJ",
+              "pic": "/picture/people/Jack.png"
+            },
+            {
+              "position": "UX-Ui",
+              "name": "JJ",
+              "pic": "/picture/people/Jack.png"
+            },
+            {
+              "position": "แอดมิน",
+              "name": "JJ",
+              "pic": "/picture/people/Jack.png"
+            }
+          ]
         }
       ]
     }

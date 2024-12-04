@@ -10,11 +10,17 @@
     "export": "next build && next export -o _static"
   },
   "dependencies": {
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "@mui/icons-material": "^6.1.9",
+    "@mui/material": "^6.1.9",
     "clsx": "^2.1.1",
     "framer-motion": "^11.11.9",
+    "lodash": "^4.17.21",
     "next": "14.2.16",
     "react": "^18",
     "react-dom": "^18",
+    "react-organizational-chart": "^2.2.1",
     "tailwind-merge": "^2.5.4"
   },
   "devDependencies": {

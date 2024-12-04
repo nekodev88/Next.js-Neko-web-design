@@ -45,8 +45,16 @@
   .about-rounded-box2 {
     border-radius: 20px 20px 20px 0px;
   }
+  .organization-box1 {
+    @apply w-full flex flex-col justify-center items-center gap-5
+  }
+  .organization-box2 {
+    @apply self-center rounded-md w-64 shadow-2xl shadow-gray-400/50
+  }
 }
 
 /* @apply transition-colors duration-200; */
+
+
 
 

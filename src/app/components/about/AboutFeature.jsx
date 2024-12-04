@@ -9,7 +9,7 @@ const AboutFeature = () => {
   const aboutFeature =
     content.about_section[1].service[1].service_section || [];
   return (
-    <div className="w-full h-3/6 mt-32 flex flex-col justify-between items-center">
+    <div className="w-full h-3/6 mt-20 flex flex-col justify-between items-center">
       <div className="flex flex-col justify-center items-center">
         <h1 className="text-4xl font-bold text-customYellow">
           {aboutFeatureTitle.title}
