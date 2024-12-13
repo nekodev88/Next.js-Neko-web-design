@@ -19,6 +19,12 @@
     color: var(--foreground);
     background: var(--background);
   }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+  }
 }
 
 @layer utilities {
@@ -29,6 +35,10 @@
   .glassmorphism-small {
     @apply bg-white bg-opacity-20 backdrop-blur-lg rounded-full px-5 md:px-10 py-2 shadow-lg;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  }
+  .glassmorphism-blur {
+    @apply bg-white bg-opacity-20 backdrop-blur-lg rounded-3xl p-8 shadow-lg;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Shadow for 3D effect */
   }
   .text-hover {
     @apply hover:text-customYellow duration-300 cursor-pointer

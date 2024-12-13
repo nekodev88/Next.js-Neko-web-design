@@ -5,72 +5,41 @@
       "about": "About Us",
       "service": "Services",
       "portfolio": "Success Stories",
-      "contact": "Contacts" 
+      "contact": "Contacts"
     }
   },
   "page_section": [
     {
       "hero": {
-        "title": "Custom Web App Development Services",
-        "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!"
+        "title": "Develop High-Quality Web Applications That Meet All Your Needs with a Professional Team",
+        "des": "We create digital solutions tailored to meet every business requirement by developing high-quality, user-friendly, and modern web applications. Enhance your business performance and achieve sustainable growth in the digital era."
       }
     },
     {
       "about": {
-        "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit.",
-        "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!"
+        "title": "“We are committed to creating software solutions that shape the future, emphasizing the perfect blend of code and dreams.”",
+        "des": "A leading software development and service provider dedicated to crafting cutting-edge technology. We blend “code” with “dreams” to drive innovation and deliver solutions that meet the evolving demands of the digital world in every dimension."
       }
     },
     {
       "service": [
         {
-          "title": "Gippity AI powers the entire universe",
-          "des": "With over 100,000 mothly active bot users, Gippity AI is the most popular AI platform for developers.",
-          "containerClassName": "col-span-1 lg:col-span-2 h-full min-h-[400px] lg:min-h-[400px]",
-          "divClassName": "max-w-xl relative",
+          "title": "Mobile & Web Application Development",
           "buttonLabel": "Let's Contect",
-          "image": null,
-          "imageClassName": "",
-          "h2ClassName": "relative text-left text-balance text-2xl lg:text-5xl font-semibold text-black mt-3 md:mb-t",
-          "pClassName": "mt-4 text-left text-base/6 text-customGray1",
-          "spanContent": "OUR SERVICES", 
-          "spanClassName": "text-customYellow",
-          "isService": true
+          "spanContent": "OUR SERVICES",
+          "icon": "/icon/mobile-app.png"
         },
         {
-          "title": " No shirt, no shoes, no weapons.",
-          "des": "If someone yells “stop!”, goes limp, or taps out, the fight is over.",
-          "containerClassName": "col-span-1 min-h-[400px] bg-customGray overflow-hidden relative",
-          "divClassName": "max-w-80",
-          "image": "/picture/box/box2.svg",
-          "imageClassName": "w-96 h-auto absolute -right-5 -bottom-52",
-          "h2ClassName": "max-w-80 text-left text-balance text-2xl lg:text-3xl font-semibold tracking-[-0.015em] text-black",
-          "pClassName": "mt-4 max-w-[26rem] text-left text-base/6 text-customGray1",
-          "spanContent": null,
-          "spanClassName": ""
+          "title": "UX/UI Design & Digital Marketing",
+          "icon": "/icon/ux.png"
         },
         {
-          "title": "Signup for blazing-fast cutting-edge state of the art Gippity AI wrapper today!",
-          "des": "With over 100,000 mothly active bot users, Gippity AI is the most popular AI platform for developers.",
-          "containerClassName": "col-span-1 min-h-[400px] bg-customGray lg:min-h-[600px] xl:min-h-[300px] overflow-hidden relative",
-          "divClassName": "max-w-sm",
-          "image": "/picture/box/box1.svg",
-          "imageClassName": "w-96 h-auto absolute -top-16",
-          "h2ClassName": "max-w-sm md:max-w-lg text-left text-balance text-2xl lg:text-3xl font-semibold tracking-[-0.015em] text-black",
-          "pClassName": "mt-4 max-w-[26rem] text-left text-base/6 text-customGray1",
-          "spanContent": null,
-          "spanClassName": ""
+          "title": "Software Project Management",
+          "icon": "/icon/software.png"
         },
         {
-          "title": "Signup for blazing-fast cutting-edge state of the art Gippity AI wrapper today!",
-          "des": "With over 100,000 mothly active bot users, Gippity AI is the most popular AI platform for developers.",
-          "containerClassName": "col-span-1 lg:col-span-2 min-h-[400px] bg-customYellow1 bg-cover bg-no-repeat lg:min-h-[600px] xl:min-h-[300px]",
-          "divClassName": "max-w-sm",
-          "imageClassName": "",
-          "h2ClassName": "max-w-sm md:max-w-lg text-left text-balance text-2xl lg:text-3xl font-semibold tracking-[-0.015em] text-black",
-          "pClassName": "mt-4 max-w-[26rem] text-left text-base/6 text-customGray1",
-          "spanContent": null,
-          "spanClassName": ""
+          "title": "Technology Consulting",
+          "icon": "/icon/consultant.png"
         }
       ]
     },
@@ -86,38 +55,47 @@
   "footer": [
     {
       "mainLeft": {
-        "des": "Professional software development services to match your unique business requirements"
+        "des": "Professional software development services tailored to meet your specific business needs."
       }
     },
     {
       "service": [
         {
-          "title": "Services"
+          "title": "Our Services"
         },
         {
           "services": [
             {
-              "service": "Lorem ipsum dolor sit amet"
-           },
-           {
-              "service": "Lorem ipsum dolor sit amet"
-           },
-           {
-              "service": "Lorem ipsum dolor sit amet"
-           },
-           {
-              "service": "Lorem ipsum dolor sit amet"
-           }
+              "service": "Mobile & Web Application Development"
+            },
+            {
+              "service": "UX/UI Design & Digital Marketing"
+            },
+            {
+              "service": "Software Project Management"
+            },
+            {
+              "service": "Technology Consulting"
+            }
           ]
         }
       ]
     },
     {
       "contact": {
-        "title": "Get in touch",
-        "email": "Neko@gmail.com",
-        "phone": "+66 999 9999",
-        "address": "Chiang Mai, Thailand"
+        "title": "Contact Us",
+        "email": "nekosoftwareengineering@gmail.com",
+        "phone": "080-890-5414",
+        "address": "Chiangmai, Thailand 50200"
+      }
+    },
+    {
+      "nav": {
+        "title": "Navigation",
+        "about": "About Us",
+        "service": "Services",
+        "portfolio": "Success Stories",
+        "contact": "Contacts"
       }
     }
   ],
@@ -208,11 +186,19 @@
       "about_organization": [
         {
           "title": {
-            "ceo": "CEO",
-            "general_ad": "General Administrator",
-            "personnel_ad": "Personnel Administration Unit",
-            "developer": "Developer",
-            "general_em": "General staff"
+            "title": "Our Team",
+            "des": "Our team consists of experts from various fields, ready to drive the organization toward a successful future.",
+            "emp_title": [
+              {
+                "title": "Development Team"
+              },
+              {
+                "title" : "Design & Marketing Team"
+              },
+              {
+                "title": "Management"
+              }
+            ]
           }
         },
         {
@@ -315,6 +301,107 @@
               "pic": "/picture/people/Jack.png"
             }
           ]
+        },
+        {
+          "dev": [
+            {
+              "emp": "Mobile Application Developer Leader - 1 person"
+            },
+            {
+              "emp": "Web Application Developer Leader - 1 person"
+            },
+            {
+              "emp": "Mid Backend Developer - 1 person"
+            },
+            {
+              "emp": "Junior Frontend Developer - 1 person"
+            },
+            {
+              "emp": "Junior Ai Developer - 1 person"
+            },
+            {
+              "emp": "Junior Flutter Developer - 1 person"
+            }
+          ]
+        },
+        {
+          "design": [
+            {
+              "emp": "UX/UI Designer - 1 person"
+            },
+            {
+              "emp": "Graphic Designer - 1 person"
+            },
+            {
+              "emp": "SEO Specialist - 1 person"
+            },
+            {
+              "emp": "Account Executive (AE) - 1 person"
+            },
+            {
+              "emp": "Administrative Officer - 1 person"
+            }
+          ]
+        },
+        {
+          "management": "Company Management Team - 4 person"
+        }
+      ]
+    },
+    {
+      "detail": [
+        {
+          "about": "Neko Software Engineering Co., Ltd. is a leading software development and service provider dedicated to crafting cutting-edge technology. We blend “code” with “dreams” to drive innovation and deliver solutions that meet the evolving demands of the digital world in every dimension."
+        },
+        {
+          "vition_title": "Vision",
+          "vision_des": "“We are committed to creating software solutions that shape the future, emphasizing the perfect blend of code and dreams.”"
+        },
+        {
+          "mission_title": "Mission",
+          "mission_des": [
+            {
+              "title": "Fostering Innovation : ",
+              "des": "We promote continuous learning through training and workshops, nurturing developers prepared to thrive in the future."
+            },
+            {
+              "title": "Embracing New Ideas : ",
+              "des": "We cultivate a culture that welcomes feedback and fresh ideas, driving the development of market-responsive products."
+            },
+            {
+              "title": "Exploring Emerging Tech : ",
+              "des": "We explore and experiment with untapped technologies to pave the way toward becoming a leader in innovation."
+            },
+            {
+              "title": "Collaborative Teamwork : ",
+              "des": "We promote teamwork through skill sharing, perspective exchange, and idea collaboration to develop the most effective solutions."
+            },
+            {
+              "title": "Customer-Centered Approach : ",
+              "des": "We focus on developing solutions that meet user needs while delivering the best possible experience."
+            },
+            {
+              "title": "Creative Marketing : ",
+              "des": "We develop modern marketing strategies focused on delivering valuable experiences to customers."
+            }
+          ]
+        },
+        {
+          "goals_title": "Our Goals",
+          "goals_des": [
+            {
+              "des": "Develop cutting-edge software solutions and set new standards in the technology industry.",
+               "pic": "/picture/about-us/3.jpg"
+            },
+            {
+              "des": "Drive world-changing innovation through advanced technology.",
+              "pic": "/picture/about-us/4.jpg"
+            },
+            {
+              "des": "Inspire and foster a professional working environment that promotes excellence and growth.",
+              "pic": "/picture/about-us/5.jpg"
+            }
+          ]
         }
       ]
     }
@@ -333,75 +420,115 @@
       "portfolio": [
         {
           "id": 1,
-          "pic": "/picture/computer.jpg",
-          "logo": "/logo/neko-logo2.jpg",
-          "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
-          "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!",
-          "category": "web_app"
+          "pic": "/picture/portfolio/anata/4.png",
+          "title": "Anata Travel - Tour & Travel Platform",
+          "des": "A travel platform that makes trip planning effortless with comprehensive features for searching and booking travel services, supported by secure and user-friendly technology.",
+          "link": "/portfolio/anata-travel",
+          "status": "in progress",
+          "category": "web_app",
+          "detail": [
+            {
+              "about_title": "About the Project",
+              "about_des": "Anata Travel is a travel platform that makes trip planning effortless. With comprehensive features for searching and booking travel services, it offers secure and user-friendly technology."
+            },
+            {
+              "highlight_title": "Highlights of Anata Travel",
+              "highlight_topics": [
+                {
+                  "topic": "Comprehensive Booking System",
+                  "des": "Search and book flights, hotels, tours, and car rentals in one place."
+                },
+                {
+                  "topic": "Customizable Travel Packages",
+                  "des": "Tailor your travel plans to suit your needs."
+                },
+                {
+                  "topic": "Smart Technology",
+                  "des": "Personalized trip recommendations based on search and booking behaviors."
+                },
+                {
+                  "topic": "Secure Payment Options",
+                  "des": "Supports multiple currencies and real-time booking confirmations."
+                },
+                {
+                  "topic": "24/7 Customer Service",
+                  "des": "Available around the clock to assist and provide support."
+                },
+                {
+                  "topic": "User-Friendly Experience",
+                  "des": "Modern interface that is easy to use on all devices."
+                }
+              ]
+            },
+            {
+              "target_title": "Project Goals",
+              "target_des": [
+                {
+                  "des": "Create a centralized hub for comprehensive trip bookings.",
+                  "pic": "/picture/portfolio/anata/3.jpg"
+                },
+                {
+                  "des": "Connect tour operators and travelers from around the world.",
+                  "pic": "/picture/portfolio/anata/1.jpg"
+                },
+                {
+                  "des": "Promote sustainable tourism through eco-friendly technology.",
+                  "pic": "/picture/portfolio/anata/2.jpg"
+                }
+              ]
+            },
+            {
+              "opening_title": "Official Launch Projection",
+              "opening_des": "Year 2025, ready to serve travelers worldwide."
+            },
+            {
+              "following_title": "Stay Updated",
+              "following_des": [
+                {
+                  "des": "Official Website: www.anatatravel.com"
+                },
+                {
+                  "des": "Social Media: Follow us for the latest news and features on our social channels."
+                }
+              ]
+            }
+          ]
         },
         {
           "id": 2,
-          "pic": "/picture/computer.jpg",
-          "logo": "/logo/neko-logo2.jpg",
-          "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
-          "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!",
-          "category": "web_app"
-        },
-        {
-          "id": 3,
-          "pic": "/picture/computer.jpg",
-          "logo": "/logo/neko-logo2.jpg",
-          "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
-          "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!",
-          "category": "web_app"
-        },
-        {
-          "id": 4,
-          "pic": "/picture/computer.jpg",
-          "logo": "/logo/neko-logo2.jpg",
-          "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
-          "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!",
-          "category": "mobile_app"
-        },
-        {
-          "id": 5,
-          "pic": "/picture/computer.jpg",
-          "logo": "/logo/neko-logo2.jpg",
-          "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
-          "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!",
-          "category": "mobile_app"
-        },
-        {
-          "id": 6,
-          "pic": "/picture/computer.jpg",
-          "logo": "/logo/neko-logo2.jpg",
-          "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
-          "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!",
-          "category": "mobile_app"
-        },
-        {
-          "id": 7,
-          "pic": "/picture/computer.jpg",
-          "logo": "/logo/neko-logo2.jpg",
-          "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
-          "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!",
-          "category": "integration"
-        },
-        {
-          "id": 8,
-          "pic": "/picture/computer.jpg",
-          "logo": "/logo/neko-logo2.jpg",
-          "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
-          "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!",
-          "category": "integration"
-        },
-        {
-          "id": 9,
-          "pic": "/picture/computer.jpg",
-          "logo": "/logo/neko-logo2.jpg",
-          "title": "Lorem ipsum dolor sit amet consectetur adipisicing",
-          "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!",
-          "category": "integration"
+          "pic": "/picture/portfolio/ai/1.jpg",
+          "title": "AI Chat Project - A support system for organizations and individuals",
+          "des": "A platform for providing various types of assistance, such as answering questions, offering information, generating images, videos, and audio.",
+          "link": "/portfolio/ai-chat",
+          "status": "in progress",
+          "category": "web_app",
+          "detail": [
+            {
+              "about_title": "About the Project",
+              "about_des": "AI Chat Project is a platform that provides assistance with various types of information, such as answering questions, providing data, generating images, videos, and audio."
+            },
+            {
+              "feature_title": "Feature",
+              "feature_topics": [
+                {
+                  "topic": "Text generator",
+                  "des": "To assist with text-based searches and answering questions."
+                },
+                {
+                  "topic": "Image generator",
+                  "des": ""
+                },
+                {
+                  "topic": "Video generator",
+                  "des": ""
+                },
+                {
+                  "topic": "Voice generator",
+                  "des": ""
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -416,49 +543,31 @@
     {
       "hero": {
         "title": "Software Development and Consult Service",
-        "des": "We seek perfection with every single project. When our clients succeed, we succeed. Here is a collection of stories we are particularly proud of, products of hard work, excellent communication, and a team of driven, talented developers.",
         "img": "/picture/computer.jpg"
       }
     },
     {
       "feature": [
         {
-          "title": "What we do",
-          "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit."
+          "title": "What we do"
         },
         {
           "feature_section": [
             {
-              "pic": "/picture/computer.jpg",
-              "des": "Lorem ipsum dolor sit amet"
+              "pic": "/picture/services/website.jpg",
+              "des": "Mobile & Web Application Development"
             },
             {
-              "pic": "/picture/computer.jpg",
-              "des": "Lorem ipsum dolor sit amet"
+              "pic": "/picture/services/uxui.jpg",
+              "des": "UX/UI Design & Digital Marketing"
             },
             {
-              "pic": "/picture/computer.jpg",
-              "des": "Lorem ipsum dolor sit amet"
+              "pic": "/picture/services/development.jpg",
+              "des": "Software Project Management"
             },
             {
-              "pic": "/picture/computer.jpg",
-              "des": "Lorem ipsum dolor sit amet"
-            },
-            {
-              "pic": "/picture/computer.jpg",
-              "des": "Lorem ipsum dolor sit amet"
-            },
-            {
-              "pic": "/picture/computer.jpg",
-              "des": "Lorem ipsum dolor sit amet"
-            },
-            {
-              "pic": "/picture/computer.jpg",
-              "des": "Lorem ipsum dolor sit amet"
-            },
-            {
-              "pic": "/picture/computer.jpg",
-              "des": "Lorem ipsum dolor sit amet"
+              "pic": "/picture/services/consulting.jpg",
+              "des": "Technology Consulting"
             }
           ]
         }
@@ -470,7 +579,9 @@
       "mainLeft": {
         "title": "Talk with us to explore the new opportunities together",
         "company": "NEKO SOFTWARE ENGINEERING CO.,LTD.",
-        "address": "Chiang Mai, Thailand"
+        "tel": "080-890-5414",
+        "email": "nekosoftwareengineering@gmail.com",
+        "address": "156/55 Suthep District, Chiangmai, Thailand 50200"
       }
     },
     {

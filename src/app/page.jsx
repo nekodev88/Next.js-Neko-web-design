@@ -1,6 +1,7 @@
 import Hero from "./components/page/Hero";
 import LogoSlide from "./components/page/LogoSlide";
 import About from "./components/page/About";
+import Target from "./components/page/Target";
 import { Services } from "./components/page/Services";
 import Testimonial from "./components/page/Testimonial";
 import PortfolioExploreMenu from "./components/portfolio/PortfolioExploreMenu";
@@ -48,54 +49,12 @@ export default async function Home() {
   return (
     <>
       <Hero />
-      <LogoSlide />
+      {/* <LogoSlide /> */}
       <About />
       <Services />
+      <Target />
       <Testimonial />
       <PortfolioExploreMenu />
     </>
   );
 }
-
-
-// "use client";
-
-// import Hero from "./components/page/Hero";
-// import LogoSlide from "./components/page/LogoSlide";
-// import About from "./components/page/About";
-// import { Services } from "./components/page/Services";
-// import Testimonial from "./components/page/Testimonial";
-// import PortfolioExploreMenu from "./components/portfolio/PortfolioExploreMenu";
-// import { useLanguage } from "./components/ClientLayout";
-// import Head from "next/head";
-
-// export default function Home() {
-//   const { content } = useLanguage();
-//   const headComponent = content.head_meta_tag[0]?.page || {} //optional changing
-
-//   // ดึง keywords จาก JSON
-//   const keywordsArray = headComponent.keyword?.map(item => item.keyword_content) || [];
-//   // รวมคำค้นหาเป็นสตริง
-//   const keywords = keywordsArray.join(', ');
-
-//   return (
-//     <>
-//       <Head>
-//         <title>{headComponent.title}</title>
-//         <meta
-//           name="description" content={headComponent.des_content}
-//         />
-//         <meta name="keywords" content={keywords} />
-//         <meta name="author" content={headComponent.author_content} />
-//         {/* <link rel="canonical" href="https://yourwebsite.com/" /> */}
-//       </Head>
-
-//       <Hero />
-//       <LogoSlide />
-//       <About />
-//       <Services />
-//       <Testimonial />
-//       <PortfolioExploreMenu />
-//     </>
-//   );
-// }

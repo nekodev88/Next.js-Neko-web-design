@@ -9,12 +9,12 @@ const PortfolioHero = () => {
   const {content} = useLanguage()
   const portfolioHero = content.portfolio_section[1].hero || [];
   const images = [
-    "https://images.unsplash.com/photo-1485433592409-9018e83a1f0d?q=80&w=1814&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "https://images.unsplash.com/photo-1483982258113-b72862e6cff6?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "https://images.unsplash.com/photo-1482189349482-3defd547e0e9?q=80&w=2848&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "/picture/about-us/4.jpg",
+    "/picture/about-us/5.jpg",
+    "/picture/about-us/3.jpg",
   ];
   return (
-    <ImagesSlider className="h-[40rem]" images={images}>
+    <ImagesSlider className="h-[20rem] w-full absolute inset-0 mt-20" images={images}>
       <motion.div
         initial={{
           opacity: 0,
@@ -32,7 +32,6 @@ const PortfolioHero = () => {
         <motion.div className="font-bold text-xl md:text-6xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 p-4">
           <p className="text-2xl font-medium text-customYellow1">Portfolio</p>
           <h1 className="my-5">{portfolioHero.title}</h1>
-          <Link href="/" className="text-xl">{portfolioHero.des}</Link>
         </motion.div>
         <button className="px-4 py-2 backdrop-blur-sm border bg-emerald-300/10 border-emerald-500/20 text-white mx-auto text-center rounded-full relative mt-4">
           <Link href="/contact">Context now →</Link>

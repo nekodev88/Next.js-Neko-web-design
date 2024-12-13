@@ -9,8 +9,8 @@ const Testimonial = () => {
   const pageTestimonial = content.page_section[3].testimonial || [];
   return (
     <>
-      <section className="w-full h-auto flex justify-center items-center p-3 md:p-10 flex-col">
-        <h1 className="text-2xl sm:text-4xl font-bold my-14">
+      <section className="w-full h-auto flex justify-center items-center p-3 md:px-10 pb-16 md:pb-28 flex-col">
+        <h1 className="text-2xl sm:text-4xl font-bold mb-14">
           {pageTestimonial.title}
         </h1>
         <div className="flex flex-col lg:flex-row gap-10 justify-center items-center">

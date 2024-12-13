@@ -4,8 +4,9 @@ import React from "react";
 import { useState, useEffect, useMemo } from "react";
 import { useLanguage } from "../ClientLayout";
 import ScrollAnimation from "../ScrollAnimation";
+import Link from "next/link";
 
-const PortfolioExploreMenu = () => { 
+const PortfolioExploreMenu = () => {
   const { content } = useLanguage();
 
   const portfolioTitle = content.portfolio_section[0].title || "";
@@ -37,14 +38,14 @@ const PortfolioExploreMenu = () => {
   const displayedData = showAll ? filteredData : filteredData.slice(0, 6);
 
   return (
-    <section className="w-full h-auto flex justify-center items-center p-0 lg:p-10 flex-col">
+    <section className="w-full h-auto flex justify-center items-center p-0 lg:pb-20 flex-col">
       <ScrollAnimation className="flex flex-col justify-center items-center">
-        <h3 className="text-customYellow mt-14 mb-5">PORTFOLIO</h3>
+        <h3 className="text-customYellow mb-5">PORTFOLIO</h3>
         <h1 className="text-2xl md:text-4xl font-bold mb-7 lg:mb-14 text-center">
           {portfolioTitle}
         </h1>
       </ScrollAnimation>
-      <div className="w-full text-customYellow flex flex-col sm:flex-row justify-center items-center gap-5 lg:gap-10 mb-10">
+      {/* <div className="w-full text-customYellow flex flex-col sm:flex-row justify-center items-center gap-5 lg:gap-10 mb-10">
         <div className="flex gap-5 lg:gap-10">
           <button
             onClick={() => setCategory("All")}
@@ -81,8 +82,8 @@ const PortfolioExploreMenu = () => {
             Integration
           </button>
         </div>
-      </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6 xl:gap-10 w-full my-5">
+      </div> */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-6 xl:gap-10 w-full my-5">
         {displayedData.map((item) => {
           return (
             <div
@@ -94,16 +95,19 @@ const PortfolioExploreMenu = () => {
                 className="w-full h-full object-cover brightness-75 group-hover:scale-105 duration-300"
               />
               <div className="absolute -bottom-0 p-5 w-full flex flex-col gap-3 duration-300 cursor-pointer bg-gradient-to-t from-customBrown/75 to-transparent">
-                <h1 className="text-customYellow1 text-xl font-semibold">
+                <p className="bg-customBrown text-white text-sm p-1 w-36 text-center" style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}>{item.status}</p>
+                <h1 className="text-customYellow1 text-xl font-semibold" style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}>
                   {item.title}
                 </h1>
-                <p className="text-customWhite">{item.des}</p>
-                <div className="flex gap-2 items-center duration-300 cursor-pointer hover:gap-5">
-                  <h3 className="text-customYellow1 font-semibold hover:text-customWhite">
-                    {portfolioOthers.live}
-                  </h3>
-                  <img src="/icon/right-arrow-white.svg" className="w-5" />
-                </div>
+                <p className="text-customWhite" style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}>{item.des}</p>
+                <Link href={item.link}>
+                  <div className="flex gap-2 items-center duration-300 cursor-pointer hover:gap-5">
+                    <h3 className="text-customYellow1 font-semibold hover:text-customWhite" style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)" }}>
+                      {portfolioOthers.readMore}
+                    </h3>
+                    <img src="/icon/right-arrow-white.svg" className="w-5" />
+                  </div>
+                </Link>
               </div>
             </div>
           );

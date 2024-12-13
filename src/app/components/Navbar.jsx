@@ -162,13 +162,25 @@ const Navbar = () => {
           onMouseLeave={() => setShowToggle(false)}
         >
           <Image
-            src={language === "th" ? "/icon/thai.svg" : "/icon/english.svg"}
-            alt={language === "th" ? "thai" : "English"}
+            src={
+              language === "th"
+                ? "/icon/thai.svg"
+                : language === "zh"
+                ? "/icon/chinese.svg"
+                : "/icon/english.svg"
+            }
+            alt={
+              language === "th"
+                ? "thai"
+                : language === "zh"
+                ? "Chinese"
+                : "English"
+            }
             width={25}
             height={25}
           />
           <h3 className="text-hover">
-            {language === "th" ? "ไทย" : "English"}
+            {language === "th" ? "ไทย" : language === "zh" ? "中文" : "English"}
           </h3>
           <Image
             src="/icon/arrow-down.svg"
@@ -177,38 +189,57 @@ const Navbar = () => {
             height={20}
           />
           {showToggle && (
-            <div className="absolute top-full left-0 bg-customWhite p-3 pt-5 rounded transition-all duration-300 w-full md:w-[120px] text-hover">
-              {language === "th" ? (
-                <div className="flex gap-2 justify-center md:justify-start">
-                  <Image
-                    src="/icon/english.svg"
-                    alt="English"
-                    width={25}
-                    height={25}
-                  />
+            <div className="absolute top-full left-0 bg-customWhite p-3 pt-5 rounded transition-all w-full md:w-[120px]">
+              <div className="flex flex-col gap-2 ">
+                {language !== "en" && (
                   <div
+                    className="flex gap-2 justify-center md:justify-start"
                     onClick={() => toggleLanguage("en")}
-                    className="cursor-pointer"
                   >
-                    English
+                    <Image
+                      src="/icon/english.svg"
+                      alt="English"
+                      width={25}
+                      height={25}
+                    />
+                    <div className="cursor-pointer hover:text-customYellow duration-300">
+                      English
+                    </div>
                   </div>
-                </div>
-              ) : (
-                <div className="flex gap-2 justify-center md:justify-start">
-                  <Image
-                    src="/icon/thai.svg"
-                    alt="ไทย"
-                    width={25}
-                    height={25}
-                  />
+                )}
+                {language !== "th" && (
                   <div
+                    className="flex gap-2 justify-center md:justify-start"
                     onClick={() => toggleLanguage("th")}
-                    className="cursor-pointer"
                   >
-                    ไทย
+                    <Image
+                      src="/icon/thai.svg"
+                      alt="ไทย"
+                      width={25}
+                      height={25}
+                    />
+                    <div className="cursor-pointer  hover:text-customYellow duration-300">
+                      ไทย
+                    </div>
                   </div>
-                </div>
-              )}
+                )}
+                {language !== "zh" && (
+                  <div
+                    className="flex gap-2 justify-center md:justify-start"
+                    onClick={() => toggleLanguage("zh")}
+                  >
+                    <Image
+                      src="/icon/chinese.svg"
+                      alt="中文"
+                      width={25}
+                      height={25}
+                    />
+                    <div className="cursor-pointer  hover:text-customYellow duration-300">
+                      中文
+                    </div>
+                  </div>
+                )}
+              </div>
             </div>
           )}
         </div>

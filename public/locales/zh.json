@@ -1,0 +1,650 @@
+{
+  "navbar": {
+    "menu": {
+      "home": "主页",
+      "about": "关于我们",
+      "service": "我们的服务",
+      "portfolio": "我们的作品",
+      "contact": "联系我们"
+    }
+  },
+  "page_section": [
+    {
+      "hero": {
+        "title": "以专业团队开发高质量的网页应用程序，满足您的所有需求。",
+        "des": "我们打造满足企业所有需求的数字化解决方案，通过开发高质量、易用且现代化的网页应用程序，助力您的业务在数字时代稳步增长并提升效率。"
+      }
+    },
+    {
+      "about": {
+        "title": "“我们致力于创造引领未来的软件解决方案，注重将代码与梦想完美融合。”",
+        "des": "家领先的软件开发和服务提供商，致力于打造尖端技术。我们将“代码”与“梦想”相结合，推动创新，提供满足数字世界各个领域不断变化需求的解决方案。"
+      }
+    },
+    {
+      "service": [
+        {
+          "title": "开发手机应用程序和网站。",
+          "buttonLabel": "联系我们",
+          "spanContent": "OUR SERVICES",
+          "icon": "/icon/mobile-app.png"
+        },
+        {
+          "title": "设计用户体验/用户界面 (UX/UI) 和数字营销",
+          "icon": "/icon/ux.png"
+        },
+        {
+          "title": "软件项目管理",
+          "icon": "/icon/software.png"
+        },
+        {
+          "title": "技术咨询服务",
+          "icon": "/icon/consultant.png"
+        }
+      ]
+    },
+    {
+      "testimonial": {
+        "title": "Testimonials",
+        "Jack_des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!",
+        "Cameron_des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!",
+        "Gerard_des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit. Expedita cumque animi sapiente sequi sit!"
+      }
+    }
+  ],
+  "footer": [
+    {
+      "mainLeft": {
+        "des": "专业的软件开发服务，旨在满足您业务的所有特定需求"
+      }
+    },
+    {
+      "service": [
+        {
+          "title": "我们的服务"
+        },
+        {
+          "services": [
+            {
+              "service": "开发手机应用程序和网站。"
+            },
+            {
+              "service": "设计用户体验/用户界面 (UX/UI) 和数字营销"
+            },
+            {
+              "service": "软件项目管理"
+            },
+            {
+              "service": "技术咨询服务"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "contact": {
+        "title": "联系我们",
+        "email": "nekosoftwareengineering@gmail.com",
+        "phone": "080-890-5414",
+        "address": "清迈，泰国 50200"
+      }
+    },
+    {
+      "nav": {
+        "title": "我们的公司",
+        "about": "关于我们",
+        "service": "我们的服务",
+        "portfolio": "我们的作品",
+        "contact": "联系我们"
+      }
+    }
+  ],
+  "about_section": [
+    {
+      "hero": {
+        "pre_title": "A Leading Software House",
+        "title": "Development of web apps and mobile apps ",
+        "des": "Professional software development services to match your unique business requirements"
+      }
+    },
+    {
+      "service": [
+        {
+          "title": "What we do",
+          "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At unde rem neque provident velit."
+        },
+        {
+          "service_section": [
+            {
+              "we_do": "Lorem ipsum dolor sit amet",
+              "we_pic": "/picture/computer.jpg",
+              "css_class": {
+                "image": "w-full h-full object-cover brightness-75 group-hover:scale-105 duration-300",
+                "overlay": "absolute bottom-0 p-5 w-full duration-300 bg-gradient-to-t from-customBrown/75 to-transparent",
+                "title": "text-customYellow1 text-xl font-semibold"
+              }
+            },
+            {
+              "we_do": "Lorem ipsum dolor sit amet",
+              "we_pic": "/picture/computer.jpg",
+              "css_class": {
+                "image": "w-full h-full object-cover brightness-75 group-hover:scale-105 duration-300",
+                "overlay": "absolute bottom-0 p-5 w-full duration-300 bg-gradient-to-t from-customBrown/75 to-transparent",
+                "title": "text-customYellow1 text-xl font-semibold"
+              }
+            },
+            {
+              "we_do": "Lorem ipsum dolor sit amet",
+              "we_pic": "/picture/computer.jpg",
+              "css_class": {
+                "image": "w-full h-full object-cover brightness-75 group-hover:scale-105 duration-300",
+                "overlay": "absolute bottom-0 p-5 w-full duration-300 bg-gradient-to-t from-customBrown/75 to-transparent",
+                "title": "text-customYellow1 text-xl font-semibold"
+              }
+            },
+            {
+              "we_do": "Lorem ipsum dolor sit amet",
+              "we_pic": "/picture/computer.jpg",
+              "css_class": {
+                "image": "w-full h-full object-cover brightness-75 group-hover:scale-105 duration-300",
+                "overlay": "absolute bottom-0 p-5 w-full duration-300 bg-gradient-to-t from-customBrown/75 to-transparent",
+                "title": "text-customYellow1 text-xl font-semibold"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": {
+        "year": "Years of experience",
+        "customer": "Trusted clients",
+        "project": "Projects in progress"
+      }
+    },
+    {
+      "about_content": [
+        {
+          "title": "Collaborative Editing",
+          "des": "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity."
+        },
+        {
+          "title": "Real time changes",
+          "des": "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity."
+        },
+        {
+          "title": "Version control",
+          "des": "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity."
+        },
+        {
+          "title": "Running out of content",
+          "des": "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity."
+        }
+      ]
+    },
+    {
+      "about_organization": [
+        {
+          "title": {
+            "title": "我们的团队",
+            "des": "我们的团队由来自各个领域的专家组成，随时准备推动组织迈向成功的未来。",
+            "emp_title": [
+              {
+                "title": "开发团队"
+              },
+              {
+                "title": "设计与营销团队"
+              },
+              {
+                "title": "管理团队"
+              }
+            ]
+          }
+        },
+        {
+          "ceo": {
+            "position": "CEO",
+            "name": "Jack",
+            "pic": "/picture/people/Jack.png",
+            "email": "Jack@gmail.com",
+            "tel": "099-9999999"
+          }
+        },
+        {
+          "general_ad": [
+            {
+              "position": "General Administrator",
+              "name": "Jack",
+              "pic": "/picture/people/Jack.png",
+              "email": "Jack@gmail.com",
+              "tel": "099-9999999"
+            },
+            {
+              "position": "General Administrator",
+              "name": "Jill",
+              "pic": "/picture/people/Jack.png",
+              "email": "Jack@gmail.com",
+              "tel": "099-9999999"
+            },
+            {
+              "position": "General Administrator",
+              "name": "John",
+              "pic": "/picture/people/Jack.png",
+              "email": "Jack@gmail.com",
+              "tel": "099-9999999"
+            }
+          ]
+        },
+        {
+          "personnel_ad": {
+            "position": "Personnel Administrator",
+            "name": "JJ",
+            "pic": "/picture/people/Jack.png",
+            "email": "Jack@gmail.com",
+            "tel": "099-9999999"
+          }
+        },
+        {
+          "developer": [
+            {
+              "position": "Front-end",
+              "name": "JJ",
+              "pic": "/picture/people/Jack.png"
+            },
+            {
+              "position": "Front-end",
+              "name": "JJ",
+              "pic": "/picture/people/Jack.png"
+            },
+            {
+              "position": "Back-end",
+              "name": "JJ",
+              "pic": "/picture/people/Jack.png"
+            },
+            {
+              "position": "Full stack",
+              "name": "JJ",
+              "pic": "/picture/people/Jack.png"
+            },
+            {
+              "position": "Flutter",
+              "name": "JJ",
+              "pic": "/picture/people/Jack.png"
+            },
+            {
+              "position": "Flutter",
+              "name": "JJ",
+              "pic": "/picture/people/Jack.png"
+            }
+          ]
+        },
+        {
+          "general_em": [
+            {
+              "position": "Accountant",
+              "name": "JJ",
+              "pic": "/picture/people/Jack.png"
+            },
+            {
+              "position": "Graphic design",
+              "name": "JJ",
+              "pic": "/picture/people/Jack.png"
+            },
+            {
+              "position": "UX-Ui designer",
+              "name": "JJ",
+              "pic": "/picture/people/Jack.png"
+            },
+            {
+              "position": "Admin",
+              "name": "JJ",
+              "pic": "/picture/people/Jack.png"
+            }
+          ]
+        },
+        {
+          "dev": [
+            {
+              "emp": "移动应用程序开发负责人 - 1 人"
+            },
+            {
+              "emp": "网络应用程序开发负责人 - 1 人"
+            },
+            {
+              "emp": "中级后端开发人员 - 1 人"
+            },
+            {
+              "emp": "初级前端开发人员 - 1 人"
+            },
+            {
+              "emp": "初级人工智能开发人员 - 1 人"
+            },
+            {
+              "emp": "初级 Flutter 开发人员 - 1 人"
+            }
+          ]
+        },
+        {
+          "design": [
+            {
+              "emp": "用户体验/用户界面设计师 - 1 人"
+            },
+            {
+              "emp": "平面设计师 - 1 人"
+            },
+            {
+              "emp": "搜索引擎优化专家 - 1 人"
+            },
+            {
+              "emp": "客户经理 (Account Executive - AE) - 1 人"
+            },
+            {
+              "emp": "行政人员 - 1 人"
+            }
+          ]
+        },
+        {
+          "management": "公司管理人员 - 4 人"
+        }
+      ]
+    },
+    {
+      "detail": [
+        {
+          "about": "Neko软件工程有限公司, 是一家领先的软件开发和服务提供商，致力于打造尖端技术。我们将“代码”与“梦想”相结合，推动创新，提供满足数字世界各个领域不断变化需求的解决方案。"
+        },
+        {
+          "vition_title": "愿景",
+          "vision_des": "“我们致力于创造引领未来的软件解决方案，注重将代码与梦想完美融合。”"
+        },
+        {
+          "mission_title": "使命",
+          "mission_des": [
+            {
+              "title": "促进创新 : ",
+              "des": "我们通过培训和研讨会推动持续学习，培育能够在未来茁壮成长的开发人员。"
+            },
+            {
+              "title": "拥抱新理念 : ",
+              "des": "我们培养一种欢迎反馈和新想法的文化，推动符合市场需求的产品开发。"
+            },
+            {
+              "title": "探索新兴技术 : ",
+              "des": "我们探索和尝试尚未被广泛应用的技术，开辟通往创新领导者之路。"
+            },
+            {
+              "title": "团队合作 : ",
+              "des": "我们鼓励通过技能共享、观点交流和创意协作，开发最有效的解决方案。"
+            },
+            {
+              "title": "以客户为中心 : ",
+              "des": "我们专注于开发满足用户需求的解决方案，并提供最佳体验。"
+            },
+            {
+              "title": "创意营销 : ",
+              "des": "我们制定现代化的营销策略，专注于为客户提供有价值的体验。"
+            }
+          ]
+        },
+        {
+          "goals_title": "我们的目标",
+          "goals_des": [
+            {
+              "des": "开发先进的软件解决方案，并在技术行业树立新标准",
+              "pic": "/picture/about-us/3.jpg"
+            },
+            {
+              "des": "通过领先技术创造改变世界的创新",
+              "pic": "/picture/about-us/4.jpg"
+            },
+            {
+              "des": "激发灵感并创造一个促进专业工作的环境",
+              "pic": "/picture/about-us/5.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "portfolio_section": [
+    {
+      "title": "过去的客户案例"
+    },
+    {
+      "hero": {
+        "title": "过去的作品"
+      }
+    },
+    {
+      "portfolio": [
+        {
+          "id": 1,
+          "pic": "/picture/portfolio/anata/4.png",
+          "title": "Anata Travel 一站式旅游平台",
+          "des": "一个让旅行计划变得轻松的旅游平台，提供全面的搜索和预订旅游服务功能，并配备安全且用户友好的技术",
+          "link": "/portfolio/anata-travel",
+          "status": "正在开发中",
+          "category": "web_app",
+          "detail": [
+            {
+              "about_title": "关于项目",
+              "about_des": "Anata Travel 是一个旅游平台，帮助您轻松规划行程，提供全面的旅游服务搜索和预订功能，配备安全且用户友好的技术。"
+            },
+            {
+              "highlight_title": "Anata Travel 的亮点",
+              "highlight_topics": [
+                {
+                  "topic": "全面的预订系统",
+                  "des": "在一个地方搜索并预订机票、酒店、旅游和租车服务"
+                },
+                {
+                  "topic": "可定制的旅游套餐",
+                  "des": "根据需求定制行程"
+                },
+                {
+                  "topic": "智能技术",
+                  "des": "根据搜索和预订行为推荐个性化旅行"
+                },
+                {
+                  "topic": "安全支付",
+                  "des": "支持多种货币，并提供实时预订确认"
+                },
+                {
+                  "topic": "全天候客户服务",
+                  "des": "提供 24 小时的支持和服务"
+                },
+                {
+                  "topic": "友好的用户体验",
+                  "des": "现代化界面，适用于所有设备，易于使用"
+                }
+              ]
+            },
+            {
+              "target_title": "项目目标",
+              "target_des": [
+                {
+                  "des": "创建一个综合旅游预订中心",
+                  "pic": "/picture/portfolio/anata/3.jpg"
+                },
+                {
+                  "des": "连接全球的旅游服务提供商和游客",
+                  "pic": "/picture/portfolio/anata/1.jpg"
+                },
+                {
+                  "des": "通过环保友好的技术促进可持续旅游",
+                  "pic": "/picture/portfolio/anata/2.jpg"
+                }
+              ]
+            },
+            {
+              "opening_title": "预计正式发布",
+              "opening_des": "2025年，全球旅客将可以使用我们的服务"
+            },
+            {
+              "following_title": "跟踪进展",
+              "following_des": [
+                {
+                  "des": "官方网站：www.anatatravel.com"
+                },
+                {
+                  "des": "社交媒体：通过我们的社交渠道，获得最新的新闻和新功能"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "pic": "/picture/portfolio/ai/1.jpg",
+          "title": "AI聊天项目 - 为组织和个人提供的支持系统",
+          "des": "一个提供多种帮助的平台，例如回答问题、提供信息、生成图片、视频和音频。",
+          "link": "/portfolio/ai-chat",
+          "status": "正在开发中",
+          "category": "web_app",
+          "detail": [
+            {
+              "about_title": "关于项目",
+              "about_des": "AI Chat Project 是一个帮助提供各种信息的平台，如回答问题、提供信息、生成图片、视频和音频"
+            },
+            {
+              "feature_title": "功能介绍",
+              "feature_topics": [
+                {
+                  "topic": "信息系统",
+                  "des": "帮助搜索并回答文本形式的问题"
+                },
+                {
+                  "topic": "图片系统",
+                  "des": ""
+                },
+                {
+                  "topic": "视频系统",
+                  "des": ""
+                },
+                {
+                  "topic": "音频系统",
+                  "des": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "others": {
+        "live": "Go to website",
+        "readMore": "继续阅读"
+      }
+    }
+  ],
+  "service_section": [
+    {
+      "hero": {
+        "title": "Software Development and Consult Service",
+        "img": "/picture/computer.jpg"
+      }
+    },
+    {
+      "feature": [
+        {
+          "title": "我们做些什么"
+        },
+        {
+          "feature_section": [
+            {
+              "pic": "/picture/services/website.jpg",
+              "des": "开发手机应用程序和网站。"
+            },
+            {
+              "pic": "/picture/services/uxui.jpg",
+              "des": "设计用户体验/用户界面 (UX/UI) 和数字营销"
+            },
+            {
+              "pic": "/picture/services/development.jpg",
+              "des": "软件项目管理"
+            },
+            {
+              "pic": "/picture/services/consulting.jpg",
+              "des": "技术咨询服务"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "contact_section": [
+    {
+      "mainLeft": {
+        "title": "与我们交流，共同探索新机遇",
+        "company": "Neko软件工程有限公司",
+        "tel": "080-890-5414",
+        "email": "nekosoftwareengineering@gmail.com",
+        "address": "156/55，苏铁镇，清迈市，清迈府， 50200"
+      }
+    },
+    {
+      "formRight": {
+        "title": "联系我们",
+        "name": "姓名",
+        "email": "电子邮件",
+        "company": "公司",
+        "subject": "主题",
+        "message": "信息",
+        "submit": "提交"
+      }
+    }
+  ],
+  "head_meta_tag": [
+    {
+      "page": {
+        "title": "Homepage - NEKO SOFTWARE ENGINEERING CO.,LTD.",
+        "des_content": "NEKO Software Engineering provides high-quality software development and technology consulting services for your business.",
+        "og_title": "Web Development Company Offering Custom Website and Software Development Services",
+        "og_des": "We specialize in creating custom websites and providing software development services tailored to your business needs.",
+        "twitter_title": "Web Development Company Offering Custom Website and Software Development Services",
+        "twitter_des": "We specialize in creating custom websites and providing software development services tailored to your business needs."
+      }
+    },
+    {
+      "about": {
+        "title": "About Us - NEKO Software Engineering",
+        "des_content": "We are a software development company committed to providing high-quality services to help your business grow sustainably.",
+        "og_title": "About Us | NEKO Software Engineering",
+        "og_des": "A software development company offering website and software development services tailored to meet customer needs.",
+        "twitter_title": "About Us | NEKO Software Engineering",
+        "twitter_des": "Learn more about our company, experts in website and software development."
+      }
+    },
+    {
+      "service": {
+        "title": "Our Services - NEKO Software Engineering",
+        "des_content": "We offer high-quality software and website development services to help your business grow and succeed.",
+        "og_title": "Our Services | NEKO Software Engineering",
+        "og_des": "We specialize in developing custom software and websites tailored to meet the needs of businesses.",
+        "twitter_title": "Our Services | NEKO Software Engineering",
+        "twitter_des": "We specialize in developing websites and software solutions that help businesses succeed."
+      }
+    },
+    {
+      "portfolio": {
+        "title": "Our Portfolio - NEKO Software Engineering",
+        "des_content": "We are proud to showcase our successful software and website development projects that helped our clients achieve their goals.",
+        "og_title": "Our Portfolio | NEKO Software Engineering",
+        "og_des": "Our portfolio includes custom websites and software projects that meet the high standards of our clients.",
+        "twitter_title": "Our Portfolio | NEKO Software Engineering",
+        "twitter_des": "Check out our software and website development projects that have empowered businesses to succeed."
+      }
+    },
+    {
+      "contact": {
+        "title": "Contact Us - NEKO Software Engineering",
+        "des_content": "If you need more information about our services or have any questions, feel free to contact us using the information below.",
+        "og_title": "Contact Us | NEKO Software Engineering",
+        "og_des": "Get in touch with us to learn more about our software and website development services that suit your business needs.",
+        "twitter_title": "Contact Us | NEKO Software Engineering",
+        "twitter_des": "Contact us for further inquiries about our software and website development services."
+      }
+    }
+  ]
+}

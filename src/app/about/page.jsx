@@ -7,7 +7,8 @@ import AboutNumber from '../components/about/AboutNumber'
 import AboutStickyScroll from '../components/about/AboutStickyScroll'
 import { useLanguage } from '../components/ClientLayout';
 import AboutOrganization from '../components/about/AboutOrganization';
-import AboutOrgDiagrame from '../components/about/AboutOrgDiagrame';
+import AboutUs from '../components/about/AboutUs';
+import { ThemeProvider } from "@material-tailwind/react";
 
 const About = () => {
   const { content } = useLanguage();
@@ -33,12 +34,14 @@ const About = () => {
         {/* <meta name="twitter:image" content="https://example.com/twitter-image.jpg" /> */}
      </head>
 
+    <ThemeProvider>
     <AboutHero />
+    <AboutUs /> 
     <AboutOrganization />
-    {/* <AboutOrgDiagrame /> */}
-    <AboutFeature /> 
+    </ThemeProvider>
+    {/* <AboutFeature /> 
     <AboutNumber />
-    <AboutStickyScroll />
+    <AboutStickyScroll /> */}
     </>
     
   )

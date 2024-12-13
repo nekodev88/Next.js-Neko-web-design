@@ -2,6 +2,7 @@
 
 import React from "react";
 import PortfolioHero from "../components/portfolio/PortfolioHero";
+import PortfolioBlank from "../components/portfolio/PortfolioBlank";
 import PortfolioExploreMenu from "../components/portfolio/PortfolioExploreMenu";
 import { useLanguage } from "../components/ClientLayout";
 
@@ -30,6 +31,7 @@ const Portfolio = () => {
       </head>
 
       <PortfolioHero />
+      <PortfolioBlank />
       <PortfolioExploreMenu />
     </>
   );

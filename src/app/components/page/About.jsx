@@ -9,8 +9,8 @@ const About = () => {
   const { content } = useLanguage();
   const pageAbout = content.page_section[1].about || [];
   return (
-    <section className="bg-custom-curve-bg bg-cover bg-no-repeat overflow-hidden bg-[center_bottom_-100px] w-full h-[700px] md:h-[600px] lg:h-[450px] p-10 rounded-bl-3xl rounded-br-3xl flex flex-col lg:flex-row">
-      <div className="w-full h-[40%] md:h-[50%] lg:w-[50%] lg:h-full pl-5 xl:pl-20 pt-5">
+    <section className="bg-custom-curve-bg bg-cover bg-no-repeat overflow-hidden bg-[center_bottom_-100px] w-full h-[700px] md:h-[600px] lg:h-[450px] p-10 rounded-bl-3xl rounded-br-3xl flex flex-col lg:flex-row my-10">
+      <div className="w-full h-[40%] md:h-[50%] lg:w-[45%] lg:h-full xl:pl-20 pt-5">
         <Image
           src="/logo/neko-logo2.jpg"
           width={80}
@@ -23,13 +23,13 @@ const About = () => {
           NEKO SOFTWARE ENGINEERING CO.,LTD.
         </h1>
       </div>
-        <div className="w-full h-[60%] mt-5 md:mt-0 md:h-[50%] lg:w-[50%] lg:h-full">
-          <ScrollAnimation>
+      <div className="w-full h-[60%] mt-5 md:h-[50%] lg:w-[55%] lg:h-full">
+        <ScrollAnimation>
           <p className="text-customYellow mb-3 md:mb-5">ABOUT US</p>
           <h3 className="text-2xl font-semibold">{pageAbout.title}</h3>
           <p className="text-customGray1 mt-5">{pageAbout.des}</p>
-          </ScrollAnimation>
-        </div>
+        </ScrollAnimation>
+      </div>
     </section>
   );
 };

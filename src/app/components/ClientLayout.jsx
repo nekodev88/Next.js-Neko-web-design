@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { useState, useEffect } from "react";
-import { Outfit, IBM_Plex_Sans_Thai } from 'next/font/google'
+import { Outfit, IBM_Plex_Sans_Thai, Noto_Sans_SC } from 'next/font/google'
 import { createContext, useContext } from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
@@ -18,6 +18,12 @@ const ibmPlexSansThai = IBM_Plex_Sans_Thai({
     variable: '--font-ibm-plex-sans-thai',
     weight: ['100', '200', '300', '400', '500', '600', '700']
 })
+
+const notoSansSC = Noto_Sans_SC({
+  subsets: ["latin"],
+  variable: '--font-noto-sans-sc',
+  weight: ['100', '200', '300', '400', '500', '600', '700']
+});
 
 //สร้างcontectปรับภาษา
 const LanguagesContext = createContext()
@@ -58,8 +64,13 @@ const ClientLayout = ({children}) => {
       fetchLanguageData(language);
     }, [language]);
   
+
     // เลือกคลาสของฟอนต์ตามภาษา
-    const fontClass = language === 'th' ? ibmPlexSansThai.className : outfit.className;
+    const fontClass = language === 'th' 
+        ? ibmPlexSansThai.className 
+        : language === 'zh' 
+        ? notoSansSC.className 
+        : outfit.className;
 
   return (
     <LanguagesContext.Provider value={{ language, setLanguage, content, error, loading }}>
@@ -71,7 +82,7 @@ const ClientLayout = ({children}) => {
         ) : (
           <>
             <Navbar />
-            <main className="pt-20 px-3 md:px-10">{children}</main>
+            <main className="pt-20 px-3 md:px-10 relative">{children}</main>
             <Footer />
           </>
         )}
