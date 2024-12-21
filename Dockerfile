@@ -1,4 +1,4 @@
-# Stage 1: Build
+# Build
 FROM node:18 AS builder
 
 # Set the working directory
