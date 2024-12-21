@@ -1,4 +1,4 @@
-# Build
+# Build test
 FROM node:18 AS builder
 
 # Set the working directory
