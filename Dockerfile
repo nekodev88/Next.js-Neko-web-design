@@ -17,7 +17,7 @@ COPY . .
 RUN npm run build
 
 # Stage 2: Run
-FROM node:16-alpine
+FROM node:18-alpine
 
 # Set the working directory
 WORKDIR /app
